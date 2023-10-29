@@ -31,14 +31,14 @@ Menschen sind ständig damit beschäftigt, sVerhalten zu interpretieren und Bede
 **Wirkung von Kommunikation:**
  Die Art und Weise, wie eine Person kommuniziert, kann erheblichen Einfluss auf die Beziehungen und Interaktionen mit anderen haben. Selbst ein einfaches Lächeln kann eine positive Botschaft aussenden.
 
-Dieses Prinzip betont die Bedeutung des bewussten und effektiven Kommunizierens sowie die Notwendigkeit, sich der Auswirkungen des eigenen Verhaltens auf andere bewusst zu sein. Es ist in zwischenmenschlichen Beziehungen, insbesondere in beruflichen und sozialen Kontexten, von großer Bedeutung, da es die Grundlage für erfolgreiche Kommunikation und Verständnis bildet.
+Dieses Prinzip betont die Bedeutung des bewussten und effektiven Kommunizierens sowie die Notwendigkeit, sich der Auswirkungen des eigenen Verhaltens auf andere bewusst zu sein. Es ist in zwischenmenschlichen Beziehungen, insbesondere in beruflichen und sozialen Kontexten, von großer Bedeutung, da es die Grundlage für erfolgreiche Kommunikation und Verständnis bildet.<br><br>
 
 
 
 
 
 
-
+## Analoge & Digitale Kommunikation:
 Sowohl die analoge als auch die digitale Kommunikation existieren in verbalen und nonverbalen Formen, sowohl in der deutschen Sprache als auch in anderen Sprachen. Hier sind Beispiele für analoge und digitale Aspekte in beiden Kommunikationsformen:
 
  ### Verbale Kommunikation:
@@ -68,7 +68,7 @@ Sowohl die analogen als auch die digitalen Formen der verbalen und nonverbalen K
 
 
 
-### Das Vier-Seiten-Modell nach Friedemann Schulz von Thun ist ein Kommunikationsmodell, das die verschiedenen Ebenen der Kommunikation und mögliche Missverständnisse zwischen Sender und Empfänger aufzeigt. Es unterscheidet vier Seiten einer Nachricht:
+## Das Vier-Seiten-Modell nach Friedemann Schulz von Thun ist ein Kommunikationsmodell, das die verschiedenen Ebenen der Kommunikation und mögliche Missverständnisse zwischen Sender und Empfänger aufzeigt. Es unterscheidet vier Seiten einer Nachricht:
 
 **Sachinhalt (Worüber ich informiere):**
  Diese Seite enthält die eigentliche Information, die der Sender vermitteln möchte. Sie bezieht sich auf den konkreten Inhalt oder die Fakten, die mitgeteilt werden.
