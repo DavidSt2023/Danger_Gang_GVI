@@ -109,6 +109,60 @@ Angenommen, jemand sagt: "Du könntest öfter mal den Abwasch machen."
 
 Das Vier-Seiten-Modell verdeutlicht, dass Nachrichten auf verschiedenen Ebenen interpretiert werden können. Die unterschiedlichen Interpretationen können zu Missverständnissen führen, wenn nicht alle Seiten berücksichtigt werden. Diese Methode kann helfen, Kommunikation effektiver zu gestalten, indem sie hilft, Nachrichten bewusster zu senden und zu empfangen.
 
+## Kongruente & inkongruente
+
+**Kongruente Kommunikation**:
+
+- **Sachinhaltsebene**: Hier wird die explizite Information oder der Sachverhalt vermittelt, z.B. "Es regnet draußen."
+
+- **Selbstoffenbarungsebene**: Diese Ebene bezieht sich darauf, was der Sprecher über sich selbst offenbart, z.B. die Stimmung oder die eigene Perspektive des Sprechers bezüglich des Regens.
+
+- **Beziehungsebene**: Es geht darum, wie die Beziehung zwischen Sprecher und Zuhörer in der Kommunikation mitschwingt. Beispiel: "Ich teile das mit dir, weil ich deine Meinung schätze."
+
+- **Appellebene**: Hier sind die impliziten oder expliziten Botschaften enthalten, die den Zuhörer beeinflussen sollen, wie zum Beispiel: "Vielleicht sollten wir einen Regenschirm mitnehmen."
+
+## Symmetrisch oder Komplementär
+
+**Inkongruente Kommunikation**:
+
+Inkongruente Kommunikation tritt auf, wenn die Ebenen der Kommunikation nicht übereinstimmen. Dies kann entstehen, wenn die Botschaften auf den verschiedenen Ebenen widersprüchlich sind. Zum Beispiel, wenn jemand sagt "Es stört mich nicht," aber ihre Körpersprache oder Tonfall etwas anderes ausdrückt.
+
+**Motivation von Schulz von Thun**:
+
+Schulz von Thun wollte durch sein Modell verdeutlichen, dass Kommunikation komplex ist und oft auf verschiedenen Ebenen stattfindet. Das Verständnis dieser Ebenen kann dabei helfen, Missverständnisse in der Kommunikation zu vermeiden und ermöglicht es, auch nonverbale Signale und subtile Botschaften zu erkennen.
+
+Sein Modell betont, dass Kommunikation nicht nur darauf beschränkt ist, sachliche Informationen zu übermitteln, sondern dass zwischenmenschliche Beziehungen, Selbstoffenbarungen und implizite Botschaften eine große Rolle spielen. Die Motivation besteht darin, eine bewusstere, klarere und effektivere Kommunikation zu ermöglichen, die die verschiedenen Aspekte der Nachrichtenübermittlung berücksichtigt.
+
+Kommunikation kann entweder symmetrisch oder komplementär sein, abhängig von der Art und Weise, wie Informationen zwischen den Gesprächspartnern ausgetauscht werden.
+
+**Symmetrische Kommunikation**:
+- In einer symmetrischen Kommunikation gibt es ein gewisses Gleichgewicht oder eine Ähnlichkeit im Kommunikationsstil und Verhalten beider Parteien.
+- Es zeichnet sich durch ähnliche Reaktionsmuster aus, bei denen die Gesprächspartner sich gegenseitig spiegeln oder ähnlich agieren.
+- Dies kann zu einer harmonischen Kommunikation führen, da beide Parteien auf ähnliche Weise kommunizieren und reagieren.
+
+**Komplementäre Kommunikation**:
+- Bei komplementärer Kommunikation hingegen gibt es eine Ergänzung oder Gegenüberstellung in den Kommunikationsstilen.
+- Es entsteht eine Art von Rollenverteilung, bei der eine Person dominant oder initiativ ist, während die andere eher passiv oder reaktiv reagiert.
+- Diese Art der Kommunikation kann funktionieren, indem sie klare Rollen und Verantwortlichkeiten zwischen den Gesprächspartnern festlegt.
+
+Die Wahl zwischen symmetrischer und komplementärer Kommunikation hängt von verschiedenen Faktoren ab, darunter die Persönlichkeiten der Beteiligten, die Art der Beziehung, die Situation und der Kontext des Gesprächs. Manchmal kann eine Mischung aus symmetrischer und komplementärer Kommunikation je nach Themenbereich oder Dynamik in einer Beziehung auftreten.
+
+Es ist wichtig zu beachten, dass keine dieser Kommunikationsformen besser oder schlechter ist, da sie sich je nach Situation als passend erweisen können. Der Schlüssel liegt oft darin, die Art der Kommunikation zu erkennen, die in einer bestimmten Interaktion oder Beziehung stattfindet, um Missverständnisse zu vermeiden und eine effektive Kommunikation zu fördern.
+
 ## Das Eisbergmodel: 
 ![Eisbergmodel](/Deutsch/Images/Eisberg1.png)
 ![Eisbergmodel](/Deutsch/Images/Eisberg2.png)
+
+Das Eisbergmodell ist eine metaphorische Darstellung, die häufig in der Psychologie und insbesondere in der Kommunikationstheorie verwendet wird, um die Komplexität menschlicher Kommunikation und Verhaltensweisen zu verdeutlichen. Ähnlich wie ein Eisberg, von dem nur ein kleiner Teil über der Wasseroberfläche sichtbar ist, stellt das Modell dar, dass ein Großteil dessen, was uns Menschen ausmacht, unterhalb der Oberfläche verborgen liegt.
+
+Das Modell gliedert sich in zwei Hauptbereiche:
+
+1. **Oberfläche (Sichtbare Ebene)**:
+   - Dies ist der Teil des Eisbergs, der über der Wasseroberfläche zu sehen ist. Er repräsentiert das Offensichtliche, das, was direkt beobachtet oder wahrgenommen werden kann. In der Kommunikation könnte dies die verbalen Äußerungen oder offensichtlichen Handlungen einer Person darstellen.
+
+2. **Tiefe (Verborgene Ebene)**:
+   - Dieser Teil des Eisbergs liegt unterhalb der Oberfläche und ist nicht offensichtlich sichtbar. Es umfasst verborgene Gedanken, Emotionen, Einstellungen, Motivationen, Werte und Erfahrungen. In der Kommunikation würden diese Aspekte die nicht offensichtlichen Absichten, Bedürfnisse, und verborgenen Emotionen einer Person darstellen.
+
+Das Eisbergmodell verdeutlicht, dass das, was oberflächlich wahrgenommen wird, nur einen kleinen Teil dessen ausmacht, was tatsächlich in einer Person vor sich geht. Es betont die Bedeutung, hinter die offensichtlichen Handlungen und Äußerungen zu schauen, um ein tieferes Verständnis für die Person oder die Situation zu entwickeln. 
+
+Es wird oft in der Psychologie, Psychotherapie und zwischenmenschlicher Kommunikation verwendet, um zu illustrieren, dass es wichtig ist, sich bewusst zu machen, dass viele Aspekte eines Individuums verborgen und unter der Oberfläche liegen, und dass die vollständige Interpretation von Verhalten und Kommunikation mehr als nur das Offensichtliche erfordert.V
