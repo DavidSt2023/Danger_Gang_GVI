@@ -1,3 +1,5 @@
+## Verable,Nonverbale,Paraverbale Kommunikation
+
 **Verbale Kommunikation:** 
 
 Dies bezieht sich auf die Übermittlung von Informationen durch gesprochene oder geschriebene Worte. Bei verbalen Kommunikationsformen verwenden Menschen Sprache, um Gedanken, Ideen und Informationen auszudrücken. Dies kann in Form von Konversationen, Vorträgen, Telefonaten, Textnachrichten, E-Mails oder anderen schriftlichen Formen erfolgen.
@@ -15,7 +17,7 @@ Dies bezieht sich auf die Art und Weise, wie Worte ausgesprochen werden, einschl
 
 
 
-### Man kann nicht nicht kommnuzieren:
+## Man kann nicht nicht kommnuzieren:
 
 Das Prinzip "Man kann nicht nicht kommunizieren" stammt von dem österreichischen Sozialwissenschaftler und Kommunikationstheoretiker Paul Watzlawick. Dieses Prinzip besagt, dass jegliches Verhalten einer Person, sei es absichtlich oder unbeabsichtigt, eine Form der Kommunikation darstellt. Selbst Schweigen oder passives Verhalten kann Informationen übermitteln.
 
