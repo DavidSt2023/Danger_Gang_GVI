@@ -100,5 +100,5 @@ Beziehung (Wie ich zu dir stehe): Hier drückt der Sender aus, wie er sich zur P
 ###### Das Modell verdeutlicht, dass eine Nachricht auf all diesen Ebenen gleichzeitig verstanden werden kann. Dabei kann es zu Missverständnissen kommen, wenn Sender und Empfänger unterschiedliche Interpretationen auf einer oder mehreren dieser Ebenen haben. Eine klare und effektive Kommunikation erfordert, dass Sender und Empfänger sich bewusst sind, wie Nachrichten auf diesen verschiedenen Ebenen wirken können.<br>In der Praxis wird das Vier-Seiten-Modell oft genutzt, um die Kommunikation zu verbessern und Missverständnisse zu vermeiden, insbesondere in zwischenmenschlichen Beziehungen und in beruflichen Kontexten.
 
 ### Das Eisbergmodel: 
-![Eisbergmodel](/Images/Eisberg1.png)
-![Eisbergmodel](/Images/Eisberg2.png)
+![Eisbergmodel](/Deutsch/Images/Eisberg1.png)
+![Eisbergmodel](/Deutsch/Images/Eisberg2.png)
