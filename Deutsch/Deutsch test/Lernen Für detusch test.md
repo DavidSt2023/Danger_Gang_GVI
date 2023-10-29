@@ -1,12 +1,12 @@
-<h1>Verbale Kommunikation:<h1> 
+**Verbale Kommunikation:** 
 
 Dies bezieht sich auf die Übermittlung von Informationen durch gesprochene oder geschriebene Worte. Bei verbalen Kommunikationsformen verwenden Menschen Sprache, um Gedanken, Ideen und Informationen auszudrücken. Dies kann in Form von Konversationen, Vorträgen, Telefonaten, Textnachrichten, E-Mails oder anderen schriftlichen Formen erfolgen.
 
-<h1>Nonverbale Kommunikation:<h1> 
+**Nonverbale Kommunikation:** 
 
 Hierbei handelt es sich um die Art und Weise, wie Informationen ohne Worte übermittelt werden. Nonverbale Kommunikation umfasst Gesten, Körpersprache, Mimik, Augenkontakt, Tonfall, Berührungen und andere nonverbale Signale. Diese spielen eine wichtige Rolle in der zwischenmenschlichen Kommunikation und können oft mehr über die Gefühle und Absichten einer Person verraten als ihre Worte.
 
-<h1>Paraverbale Kommunikation:<h1> 
+**Paraverbale Kommunikation:**
 
 Dies bezieht sich auf die Art und Weise, wie Worte ausgesprochen werden, einschließlich Tonfall, Lautstärke, Geschwindigkeit und Betonung. Die Art und Weise, wie etwas gesagt wird, kann die Bedeutung einer Nachricht stark beeinflussen. Zum Beispiel kann derselbe Satz je nach Betonung freundlich, ärgerlich oder überrascht klingen.
 
@@ -15,20 +15,20 @@ Dies bezieht sich auf die Art und Weise, wie Worte ausgesprochen werden, einschl
 
 
 
-<h1>Man kann nicht nicht kommnuzieren:<h1>
+### Man kann nicht nicht kommnuzieren:
 
 Das Prinzip "Man kann nicht nicht kommunizieren" stammt von dem österreichischen Sozialwissenschaftler und Kommunikationstheoretiker Paul Watzlawick. Dieses Prinzip besagt, dass jegliches Verhalten einer Person, sei es absichtlich oder unbeabsichtigt, eine Form der Kommunikation darstellt. Selbst Schweigen oder passives Verhalten kann Informationen übermitteln.
 
-<h2>Hier sind einige Schlüsselaspekte dieses Prinzips:<h2>
+**Hier sind einige Schlüsselaspekte dieses Prinzips:**
 Unvermeidbare Kommunikation: Selbst wenn jemand nicht aktiv spricht oder handelt, sendet er dennoch nonverbale Signale aus, wie Körpersprache, Gesichtsausdrücke, Haltung oder Augenkontakt. Andere Menschen werden diese Signale interpretieren und darauf reagieren.
 
-<h2>Interpretation: <h2>
+**Interpretation:**
 Menschen sind ständig damit beschäftigt, sVerhalten zu interpretieren und Bedeutungen zuzuweisen. Dies bedeutet, dass andere oft versuchen, aus dem, was sie sehen oder wahrnehmen, Schlüsse zu ziehen und zu verstehen, was in der Person vorgeht.
 
-<h2>Kontextabhängigkeit:<h2>
+**Kontextabhängigkeit:**
  Die Bedeutung von Verhalten hängt oft stark vom Kontext ab. Was in einer Situation als freundlich angesehen wird, kann in einer anderen als unhöflich interpretiert werden. Dies macht die Kommunikation komplex und vielschichtig.
 
-<h2>Wirkung von Kommunikation:<h2>
+**Wirkung von Kommunikation:**
  Die Art und Weise, wie eine Person kommuniziert, kann erheblichen Einfluss auf die Beziehungen und Interaktionen mit anderen haben. Selbst ein einfaches Lächeln kann eine positive Botschaft aussenden.
 
 Dieses Prinzip betont die Bedeutung des bewussten und effektiven Kommunizierens sowie die Notwendigkeit, sich der Auswirkungen des eigenen Verhaltens auf andere bewusst zu sein. Es ist in zwischenmenschlichen Beziehungen, insbesondere in beruflichen und sozialen Kontexten, von großer Bedeutung, da es die Grundlage für erfolgreiche Kommunikation und Verständnis bildet.
@@ -68,16 +68,13 @@ Sowohl die analogen als auch die digitalen Formen der verbalen und nonverbalen K
 
 
 
-Das Vier-Seiten-Modell nach Friedemann Schulz von Thun ist ein Kommunikationsmodell, das die verschiedenen Ebenen der Kommunikation und mögliche Missverständnisse zwischen Sender und Empfänger aufzeigt. Es unterscheidet vier Seiten einer Nachricht:
+### Das Vier-Seiten-Modell nach Friedemann Schulz von Thun ist ein Kommunikationsmodell, das die verschiedenen Ebenen der Kommunikation und mögliche Missverständnisse zwischen Sender und Empfänger aufzeigt. Es unterscheidet vier Seiten einer Nachricht:
 
-Sachinhalt (Worüber ich informiere): Diese Seite enthält die eigentliche Information, die der Sender vermitteln möchte. Sie bezieht sich auf den konkreten Inhalt oder die Fakten, die mitgeteilt werden.
-
+**Sachinhalt (Worüber ich informiere):**
+ Diese Seite enthält die eigentliche Information, die der Sender vermitteln möchte. Sie bezieht sich auf den konkreten Inhalt oder die Fakten, die mitgeteilt werden.
 Beziehung (Wie ich zu dir stehe): Hier drückt der Sender aus, wie er sich zur Person des Empfängers verhält. Es beinhaltet die Art der Beziehung zwischen Sender und Empfänger, wie zum Beispiel Wertschätzung, Respekt oder Sympathie.
 
-Selbstoffenbarung (Was ich von mir preisgebe): Diese Seite gibt Einblicke in die Persönlichkeit des Senders. Hier teilt der Sender beispielsweise seine Meinungen, Gefühle oder Werte mit, was zur Selbstoffenbarung führt.
-
+**Selbstoffenbarung (Was ich von mir preisgebe):** Diese Seite gibt Einblicke in die Persönlichkeit des Senders. Hier teilt der Sender beispielsweise seine Meinungen, Gefühle oder Werte mit, was zur Selbstoffenbarung führt.
 Appell (Was ich von dir möchte): Auf dieser Seite drückt der Sender aus, welche Reaktion oder welches Verhalten er sich vom Empfänger wünscht. Es handelt sich um eine Aufforderung oder einen Appell an den Empfänger.
 
-Das Modell verdeutlicht, dass eine Nachricht auf all diesen Ebenen gleichzeitig verstanden werden kann. Dabei kann es zu Missverständnissen kommen, wenn Sender und Empfänger unterschiedliche Interpretationen auf einer oder mehreren dieser Ebenen haben. Eine klare und effektive Kommunikation erfordert, dass Sender und Empfänger sich bewusst sind, wie Nachrichten auf diesen verschiedenen Ebenen wirken können.
-
-In der Praxis wird das Vier-Seiten-Modell oft genutzt, um die Kommunikation zu verbessern und Missverständnisse zu vermeiden, insbesondere in zwischenmenschlichen Beziehungen und in beruflichen Kontexten.
+###### Das Modell verdeutlicht, dass eine Nachricht auf all diesen Ebenen gleichzeitig verstanden werden kann. Dabei kann es zu Missverständnissen kommen, wenn Sender und Empfänger unterschiedliche Interpretationen auf einer oder mehreren dieser Ebenen haben. Eine klare und effektive Kommunikation erfordert, dass Sender und Empfänger sich bewusst sind, wie Nachrichten auf diesen verschiedenen Ebenen wirken können.<br>In der Praxis wird das Vier-Seiten-Modell oft genutzt, um die Kommunikation zu verbessern und Missverständnisse zu vermeiden, insbesondere in zwischenmenschlichen Beziehungen und in beruflichen Kontexten.
