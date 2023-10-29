@@ -70,13 +70,16 @@ Sowohl die analogen als auch die digitalen Formen der verbalen und nonverbalen K
 
 
 
-## Das Vier-Seiten-Modell nach Friedemann Schulz von Thun ist ein Kommunikationsmodell, das die verschiedenen Ebenen der Kommunikation und mögliche Missverständnisse zwischen Sender und Empfänger aufzeigt. Es unterscheidet vier Seiten einer Nachricht:
+## Das Vier-Seiten-Modell nach Friedemann Schulz von Thun
+**ist ein Kommunikationsmodell, das die verschiedenen Ebenen der Kommunikation und mögliche Missverständnisse zwischen Sender und Empfänger aufzeigt.**
+ **Es unterscheidet vier Seiten einer Nachricht:**
 
-**Sachinhalt (Worüber ich informiere):**
+### Sachinhalt (Worüber ich informiere):
  Diese Seite enthält die eigentliche Information, die der Sender vermitteln möchte. Sie bezieht sich auf den konkreten Inhalt oder die Fakten, die mitgeteilt werden.
 Beziehung (Wie ich zu dir stehe): Hier drückt der Sender aus, wie er sich zur Person des Empfängers verhält. Es beinhaltet die Art der Beziehung zwischen Sender und Empfänger, wie zum Beispiel Wertschätzung, Respekt oder Sympathie.
 
-**Selbstoffenbarung (Was ich von mir preisgebe):** Diese Seite gibt Einblicke in die Persönlichkeit des Senders. Hier teilt der Sender beispielsweise seine Meinungen, Gefühle oder Werte mit, was zur Selbstoffenbarung führt.
+### Selbstoffenbarung (Was ich von mir preisgebe):
+ Diese Seite gibt Einblicke in die Persönlichkeit des Senders. Hier teilt der Sender beispielsweise seine Meinungen, Gefühle oder Werte mit, was zur Selbstoffenbarung führt.
 Appell (Was ich von dir möchte): Auf dieser Seite drückt der Sender aus, welche Reaktion oder welches Verhalten er sich vom Empfänger wünscht. Es handelt sich um eine Aufforderung oder einen Appell an den Empfänger.
 
 ###### Das Modell verdeutlicht, dass eine Nachricht auf all diesen Ebenen gleichzeitig verstanden werden kann. Dabei kann es zu Missverständnissen kommen, wenn Sender und Empfänger unterschiedliche Interpretationen auf einer oder mehreren dieser Ebenen haben. Eine klare und effektive Kommunikation erfordert, dass Sender und Empfänger sich bewusst sind, wie Nachrichten auf diesen verschiedenen Ebenen wirken können.<br>In der Praxis wird das Vier-Seiten-Modell oft genutzt, um die Kommunikation zu verbessern und Missverständnisse zu vermeiden, insbesondere in zwischenmenschlichen Beziehungen und in beruflichen Kontexten.
