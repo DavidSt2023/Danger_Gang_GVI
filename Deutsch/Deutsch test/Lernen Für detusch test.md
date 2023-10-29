@@ -85,19 +85,29 @@ Sowohl die analogen als auch die digitalen Formen der verbalen und nonverbalen K
 
 
 ## Das Vier-Seiten-Modell nach Friedemann Schulz von Thun
-**ist ein Kommunikationsmodell, das die verschiedenen Ebenen der Kommunikation und mögliche Missverständnisse zwischen Sender und Empfänger aufzeigt.**
- **Es unterscheidet vier Seiten einer Nachricht:**
+Das Vier-Seiten-Modell von Schulz von Thun ist ein Kommunikationsmodell, das verdeutlicht, dass jede Nachricht, die übermittelt wird, vier Seiten oder Aspekte hat. Jede Äußerung kann auf vier Ebenen interpretiert werden:
 
-### Sachinhalt (Worüber ich informiere):
-> Diese Seite enthält die eigentliche Information, die der Sender vermitteln möchte. Sie bezieht sich auf den konkreten Inhalt oder die Fakten, die mitgeteilt werden.
-Beziehung (Wie ich zu dir stehe): Hier drückt der Sender aus, wie er sich zur Person des Empfängers verhält. Es beinhaltet die Art der Beziehung zwischen Sender und Empfänger, wie zum Beispiel Wertschätzung, Respekt oder Sympathie.
+1. **Sachebene (Worüber ich informiere):** Diese Seite bezieht sich auf den offensichtlichen Sachinhalt der Nachricht. Es sind die Fakten, Informationen oder konkreten Aussagen, die übermittelt werden.
 
-### Selbstoffenbarung (Was ich von mir preisgebe):
-> Diese Seite gibt Einblicke in die Persönlichkeit des Senders. Hier teilt der Sender beispielsweise seine Meinungen, Gefühle oder Werte mit, was zur Selbstoffenbarung führt.
-### Appell (Was ich von dir möchte):
-> Auf dieser Seite drückt der Sender aus, welche Reaktion oder welches Verhalten er sich vom Empfänger wünscht. Es handelt sich um eine Aufforderung oder einen Appell an den Empfänger.
+2. **Selbstoffenbarung (Was ich von mir preisgebe):** Hier drückt der Sender seine eigenen Gedanken, Meinungen, Werte, Emotionen oder Absichten aus. Es ist das, was der Sprecher von sich selbst preisgibt.
 
-###### Das Modell verdeutlicht, dass eine Nachricht auf all diesen Ebenen gleichzeitig verstanden werden kann. Dabei kann es zu Missverständnissen kommen, wenn Sender und Empfänger unterschiedliche Interpretationen auf einer oder mehreren dieser Ebenen haben. Eine klare und effektive Kommunikation erfordert, dass Sender und Empfänger sich bewusst sind, wie Nachrichten auf diesen verschiedenen Ebenen wirken können.<br>In der Praxis wird das Vier-Seiten-Modell oft genutzt, um die Kommunikation zu verbessern und Missverständnisse zu vermeiden, insbesondere in zwischenmenschlichen Beziehungen und in beruflichen Kontexten.
+3. **Beziehungsebene (Was ich von dir halte und wie wir zueinander stehen):** Diese Seite bezieht sich darauf, wie der Sender die Beziehung zum Empfänger definiert. Es umfasst die Art und Weise, wie der Sender den Empfänger wahrnimmt und wie er sich zu ihm verhält.
+
+4. **Appellebene (Was ich bei dir erreichen möchte):** Auf dieser Ebene äußert der Sender Wünsche, Erwartungen oder Aufforderungen an den Empfänger. Es beinhaltet, was der Sender vom Empfänger will oder erwartet.
+
+### Beispiel zur Verdeutlichung:
+
+Angenommen, jemand sagt: "Du könntest öfter mal den Abwasch machen."
+
+- **Sachebene:** Die klare Aussage ist, dass die Person möchte, dass der Abwasch häufiger gemacht wird.
+  
+- **Selbstoffenbarung:** Hier drückt der Sender aus, dass es ihm wichtig ist, dass der Abwasch erledigt wird und dass er sich überfordert fühlt, diesen allein zu bewältigen.
+  
+- **Beziehungsebene:** Es könnte implizieren, dass der Sender das Gefühl hat, die Verantwortung für den Abwasch sei nicht ausreichend aufgeteilt.
+  
+- **Appellebene:** Der Appell ist, dass der Sender möchte, dass der Empfänger öfter den Abwasch erledigt.
+
+Das Vier-Seiten-Modell verdeutlicht, dass Nachrichten auf verschiedenen Ebenen interpretiert werden können. Die unterschiedlichen Interpretationen können zu Missverständnissen führen, wenn nicht alle Seiten berücksichtigt werden. Diese Methode kann helfen, Kommunikation effektiver zu gestalten, indem sie hilft, Nachrichten bewusster zu senden und zu empfangen.
 
 ### Das Eisbergmodel: 
 ![Eisbergmodel](/Deutsch/Images/Eisberg1.png)
