@@ -109,6 +109,6 @@ Angenommen, jemand sagt: "Du könntest öfter mal den Abwasch machen."
 
 Das Vier-Seiten-Modell verdeutlicht, dass Nachrichten auf verschiedenen Ebenen interpretiert werden können. Die unterschiedlichen Interpretationen können zu Missverständnissen führen, wenn nicht alle Seiten berücksichtigt werden. Diese Methode kann helfen, Kommunikation effektiver zu gestalten, indem sie hilft, Nachrichten bewusster zu senden und zu empfangen.
 
-### Das Eisbergmodel: 
+## Das Eisbergmodel: 
 ![Eisbergmodel](/Deutsch/Images/Eisberg1.png)
 ![Eisbergmodel](/Deutsch/Images/Eisberg2.png)
