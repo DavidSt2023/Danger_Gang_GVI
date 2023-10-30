@@ -3,9 +3,9 @@
   #### A:
    Peter Sorgenfrei möchte einen Musikhandel als Einzelunternehmen gründen. 
    Dafür lässt er sich ins Handelsregister eintragen. Folgende Firmenbezeichnungen sind ihm eingefallen:	
-   - 1. Sorgenfrei Musik e.K. 
-   - 2. Peter Musikhandel AG, 
-   - 3. Sorgenfrei durchs Leben e.K.
+   - 1 Sorgenfrei Musik e.K. 
+   - 2 Peter Musikhandel AG, 
+   - 3 Sorgenfrei durchs Leben e.K.
 
  - Es funktionert nur Sorgenfrei e.k 
     - Vorschlag zwei AG im namen ist das funktionert nicht da er nicht diese geselschaftsform benutzt.
