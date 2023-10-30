@@ -3,8 +3,8 @@
 ### Verbale Kommunikation: 
 
 >Dies bezieht sich auf die Übermittlung von Informationen durch gesprochene oder geschriebene Worte.
-> Bei verbalen Kommunikationsformen verwenden Menschen Sprache, um >>Gedanken, Ideen und Informationen auszudrücken. Dies kann in Form von Konversationen,
->Vorträgen, Telefonaten, Textnachrichten, E-Mails oder anderen schriftlichen >>Formen erfolgen.
+> Bei verbalen Kommunikationsformen verwenden Menschen Sprache, um Gedanken, Ideen und Informationen auszudrücken. Dies kann in Form von Konversationen,
+Vorträgen, Telefonaten, Textnachrichten, E-Mails oder anderen schriftlichen Formen erfolgen.
 
 ### Nonverbale Kommunikation:
 
