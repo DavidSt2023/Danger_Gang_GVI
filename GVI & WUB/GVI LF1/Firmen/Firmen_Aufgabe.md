@@ -18,7 +18,7 @@
    Sonja Fischer und Katja Müller gründen gemeinsam eine Beratungsfirma für Mode und Styling in der Rechtsform einer GmbH.
    Um Neukunden anzuwerben, benötigen sie einen gut klingenden Vorschlag für die Firmenbezeichnung.
    Formulieren Sie einen Vorschlag für die Firmenbezeichnung.
-   - FashingForwardConsulting GmbH
+   - FashingForward Consulting GmbH
 
    ### Maries Firmen Name:
    - ProBuild Systems GmbH
