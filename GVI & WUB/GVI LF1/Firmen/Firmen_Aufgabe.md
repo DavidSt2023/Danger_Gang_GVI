@@ -19,3 +19,6 @@
    Um Neukunden anzuwerben, benötigen sie einen gut klingenden Vorschlag für die Firmenbezeichnung.
    Formulieren Sie einen Vorschlag für die Firmenbezeichnung.
    - FashingForwardConsulting GmbH
+
+   ### Maries Firmen Name:
+   - ProBuild Systems GmbH
