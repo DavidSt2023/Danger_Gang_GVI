@@ -1,6 +1,5 @@
 ## Aufgaben
 
-### 1
   #### A:
    Peter Sorgenfrei möchte einen Musikhandel als Einzelunternehmen gründen. 
    Dafür lässt er sich ins Handelsregister eintragen. Folgende Firmenbezeichnungen sind ihm eingefallen:	
