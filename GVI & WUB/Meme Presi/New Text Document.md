@@ -39,6 +39,18 @@ Erst nach eintrag nach Handelsregister der die Kaufmannseigenschaft erlangt.
 >>**Rechte**
 >>- Firmenname
 >> - Buchführung
+
 - **Formkaufmann** ist ein Begriff aus dem Handelsgesetzbuch (HGB). Er beschreibt einen Kaufmann, der diese Eigenschaft „kraft Rechtsform“ (also durch seine Rechtsform) automatisch erhält
->**Verpflichtung & Rechte**
->wählen, einen Begriff nutzen, der das Angebot beschreibt, oder sich sogar einen Fantasienamen ausdenken. Wichtig ist nur, dass der Name keine Tätigkeit suggeriert, die die Firma nicht leisten kann, und sich zudem von den Namen anderer Unternehmen unterscheiden lässt. Unter der Firma kann ein Istkaufmann zudem auch vor Gericht auftreten, das heißt, klagen und selbst angeklagt werden.
+- Ein Formkaufmann wird man automatisch durch das wählen einer Rechtsform: 
+ GmbH, AG, OHG, KG
+
+
+Pflichten:
+-Buchführung
+-Eröffnungsbilanz
+-Schlussbilanz
+Rechte:
+-Name der Firma 
+-Andere Personen Prokura erteilen
+
+
