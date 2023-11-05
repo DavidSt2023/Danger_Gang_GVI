@@ -46,11 +46,11 @@ Erst nach eintrag nach Handelsregister der die Kaufmannseigenschaft erlangt.
 
 
 Pflichten:
--Buchführung
--Eröffnungsbilanz
--Schlussbilanz
+- Buchführung
+- Eröffnungsbilanz
+- Schlussbilanz
 Rechte:
--Name der Firma 
--Andere Personen Prokura erteilen
+- Name der Firma 
+- Andere Personen Prokura erteilen
 
 
