@@ -1,3 +1,5 @@
+https://www.file-upload.net/download-15217574/DangerGangPersi.pptx.html
+
 ### Deklaratroisch
 Deklaratorisch heißt rechtsbekundend.^
 Das bedeutet, dass ein Istkaufmann, unabhängig von seiner Eintragung ins Handelsregister, ein Kaufmann ist.
