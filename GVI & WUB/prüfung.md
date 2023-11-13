@@ -4,11 +4,12 @@
  - Güter
  - Ökonimisches prinzip
  - Volkommenr/unvolkommener Markt
- - Homoökoninus
+ - Homoekonomikus
+
 ## GVI
- - oranigram
- -  Firma(Namen)
- -  Handelsregister
- -  rechtsformen
- -  Berechnung alle rechtsformen
- -  Kaufmannseigenschaften (minimal)
+ - Organigramm
+ - Firma(Namen)
+ - Handelsregister
+ - Rechtsformen
+ - Berechnung alle rechtsformen
+ - Kaufmannseigenschaften (minimal)
