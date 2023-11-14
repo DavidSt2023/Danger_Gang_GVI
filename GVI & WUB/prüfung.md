@@ -3,8 +3,10 @@
  - Märkte
  - Güter
  - Ökonimisches prinzip
+ - > [Link](https://simpleclub.com/lessons/kaufmann-frau-im-einzelhandel-verkauferin-okonomisches-prinzip#:~:text=und%20Extremumprinzip%20unterschieden.-,Definition,f%C3%BCr%20die%20Gewinnmaximierung%20von%20Unternehmen.)
  - Volkommenr/unvolkommener Markt
-
+    >- Unvolkommner Markt [Link](https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/20934/unvollkommener-markt/)
+    >- Volkommender Markt [Link](https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/21070/vollkommener-markt/)
  - Homoekonomikus
     >- Homo Oeconomicus = Modell vom Handeln des Menschen
     >- Nach dieser Theorie trifft der Mensch seine Entscheidungen stets rational und zum eigenen Vorteil.
