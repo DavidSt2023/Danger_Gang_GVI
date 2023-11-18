@@ -28,7 +28,7 @@
 
 >###  Märkte
 
-<div style="margin-left: 25%; margin-right:25%; width:50%">
+<p style="margin-left: 25%; margin-right:25%; width:50%">
 
 | Marktform                  | Anbieter | Nachfrage |
 | :-------------------------: | :------: | :-------: |
@@ -42,7 +42,7 @@
 | Beschränktes Nachfragemonopol| Wenige  |  Einer    |
 | Polypol                     |  Viele  |  viele    |
 
-</div>
+</p>
 </br>
 
 >### 3. Güter
