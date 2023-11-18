@@ -1,5 +1,13 @@
+
 ## WUB
 >### 1. Bedrüfniss bedarf nachfrage Bedrüfnisspyramide
+   > #####  Bedürfniss,Bedarf,Nachfrage 
+   >Bedürfnisse, Bedarf und Nachfrage stellen die Grundlage der Ökonomie dar und bauen aufeinander auf. Ein Bedürfnis wird zu einem Bedarf, wenn die nötigen finanziellen Mittel für die Befriedigung des Bedürfnisses vorhanden sind. Sobald dann eine konkrete Kaufabsicht geäußert wird, spricht man von Nachfrage.
+   > #####  Bedürfnispyramide
+   >Bei der Bedürfnispyramide nach Maslow handelt es sich um eine fünfstufige hierarchisch gegliederte Übersicht der menschlichen Bedürfnisse. Die fünf Bedürfnisstufen bestehen aus (physiologischen) Grundbedürfnissen, Sicherheit, sozialen Bedürfnissen, Individualbedürfnissen sowie Selbstverwirklichung
+   <p algin = "center">
+   <img  src="./assets/images/Bedürfnispyramide.png" width="200">
+   </p>
 
 >### 2. Märkte
 
