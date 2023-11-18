@@ -1,18 +1,3 @@
-<style>
-  p{
-    text-align: center;
-  }
-   h3,h2,h5{
-    text-align: center;
-  }
-  img {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-  }
-</style>
-
-
 
 ## WUB
 
@@ -22,13 +7,13 @@
    >Bedürfnisse, Bedarf und Nachfrage stellen die Grundlage der Ökonomie dar und bauen aufeinander auf. Ein Bedürfnis wird zu einem Bedarf, wenn die nötigen finanziellen Mittel für die Befriedigung des Bedürfnisses vorhanden sind. Sobald dann eine konkrete Kaufabsicht geäußert wird, spricht man von Nachfrage.
    > #####  Bedürfnispyramide
    >Bei der Bedürfnispyramide nach Maslow handelt es sich um eine fünfstufige hierarchisch gegliederte Übersicht der menschlichen Bedürfnisse. Die fünf Bedürfnisstufen bestehen aus (physiologischen) Grundbedürfnissen, Sicherheit, sozialen Bedürfnissen, Individualbedürfnissen sowie Selbstverwirklichung
->![Bedürfnispyramide](./assets/images/Bedürfnispyramide.png)
+<img src="./assets/images/Bedürfnispyramide.png" style="display: block;margin: 0 auto;width: 200px;">
 
 </br>
 
 >###  Märkte
 
-<p style="margin-left: 25%; margin-right:25%; width:50%">
+<div style="margin-left: 25%; margin-right:25%; width:50%">
 
 | Marktform                  | Anbieter | Nachfrage |
 | :-------------------------: | :------: | :-------: |
@@ -42,12 +27,12 @@
 | Beschränktes Nachfragemonopol| Wenige  |  Einer    |
 | Polypol                     |  Viele  |  viele    |
 
-</p>
+</div>
 </br>
 
 >### 3. Güter
 >
-<img src="./assets/images/Güter.png" style="height: 500px; width: 500px;" alt="Güter Table">
+<img src="./assets/images/Güter.png" style="height: 500px; width: 500px; margin-left: 25%; margin-right:25%;" alt="Güter Table">
 </br></br>
 
 
