@@ -317,3 +317,5 @@ Beschließt die Hauptversammlung einer AG eine Dividende in Höhe von 1,50 € j
 
 > ### 6. Kaufmannseigenschaften (minimal)
 ![Kaufmanns png](./assets/images/Kaufmannseigenschaften.png)
+Wide HerBong
+<img src="./Meme%20Presi/IMG_1334.png" style="width:600px;Height:600px">
