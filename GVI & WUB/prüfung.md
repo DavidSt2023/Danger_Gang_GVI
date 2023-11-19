@@ -152,16 +152,168 @@ Die Eintragungen in das Handelsregister sind zum einen
 deklaratorisch, d.h. sie informieren z.B. darüber, dass Herr Alfons Meier seit 1. Februar Prokurist der Firma ist (die Prokura gilt aber bereits, wenn der Kaufmann sie erteilt hat); zum anderen sind sie
 konstitutiv, d.h. die Eintragung in das Handelsregister führt erst zu einer Rechtswirkung. Beispiel: eine Aktiengesellschaft entsteht als rechtsfähige juristische Person erst mit der nach § 36 AktG geforderten Eintragung in das Handelsregister
 
-> ### 4. Rechtsformen
-
-| Rechtsform                                     | Kurzporträt                                                                                     | Haftung                                     | Gründungskapital | Gewinn&Verlust Verteilung                                              | Geschäftsführung & Vertretung                                                                                                                                                            | Gründungskosten                                                    | Finanzierung                                                                                                  |
-| ----------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------- | ----------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| Einzelunternehmen                               | Die Einzelunternehmung ist die häufigste Rechtsform in Deutschland. Das Unternehmen wird von einem einzelnen Inhaber geführt und vertreten | Die Inhaber haften mit privatem und betrieblichem Vermögen | nicht erforderlich | Der Inhaber erhält den gesamten Gewinn, muss aber auch den gesamten Verlust selbst tragen | **im Innenverhältnis:** Geschäftsführung durch den Inhaber   **im Außenverhältnis:** Vertretung durch den Inhaber                                                                       | Kosten für die Gewerbeanmeldung und ggf. Eintragung ins Handelsregister | **Eigenfinanzierung:** nur ein Eigentümer   **Fremdfinanzierung:** durch hohe Kreditwürdigkeit gute Finanzierungsmöglichkeiten |
-| Offene HandelsGesellschaft (Personengesellschaft) | Die OHG besteht aus mindestens zwei Gesellschaftern, die gemeinsam ein Handelsgewerbe betreiben. | Die OHG besteht aus mindestens zwei Gesellschaftern, die gemeinsam ein Handelsgewerbe betreiben. | nicht erforderlich | Jeder Gesellschafter erhält vier Prozent Zinsen auf seine Kapitalanteile als Gewinn; der Restgewinn und die Verluste werden gleichmäßig nach Köpfen verteilt. | **im Innenverhältnis:** Geschäftsführung durch alle Gesellschafter oder durch einen oder mehrere bestimmte Gesellschafter, wenn im Gesellschaftsvertrag vereinbart   **im Außenverhältnis:** Vertretung durch alle Gesellschafter oder durch einen oder mehrere bestimmte Gesellschafter, wenn im Gesellschaftsvertrag vereinbart; Einschränkungen des Finanzrahmens bei der Vertretung sind nach außen unwirksam |
-
-
-
+### 4. Rechtsformen
+<table>
+  <thead>
+    <tr>
+      <th>Rechtsform</th>
+      <th>Kurzporträt</th>
+      <th>Haftung</th>
+      <th>Gründungskapital</th>
+      <th>Gewinn&Verlust Verteilung</th>
+      <th>Geschäftsführung & Vertretung</th>
+      <th>Gründungskosten</th>
+      <th>Finanzierung</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Einzelunternehmen</td>
+      <td>Die Einzelunternehmung ist die häufigste Rechtsform in Deutschland. Das Unternehmen wird von einem einzelnen Inhaber geführt und vertreten.</td>
+      <td>Der Inhaber haftet mit privatem und betrieblichem Vermögen.</td>
+      <td>Nicht erforderlich</td>
+      <td>Der Inhaber erhält den gesamten Gewinn, muss aber auch den gesamten Verlust selbst tragen.</td>
+      <td>
+        <table>
+          <tr>
+            <td><strong>Innenverhältnis:</strong><br>Geschäftsführung durch den Inhaber</td>
+            <td><strong>Außenverhältnis:</strong><br>Vertretung durch den Inhaber</td>
+          </tr>
+        </table>
+      </td>
+      <td>Kosten für die Gewerbeanmeldung und ggf. Eintragung ins Handelsregister.</td>
+      <td><strong>Eigenfinanzierung:</strong> nur ein Eigentümer<br><strong>Fremdfinanzierung:</strong> durch hohe Kreditwürdigkeit gute Finanzierungsmöglichkeiten</td>
+    </tr>
+    <tr>
+      <td>Offene HandelsGesellschaft (Personengesellschaft)</td>
+      <td>Die OHG besteht aus mindestens zwei Gesellschaftern, die gemeinsam ein Handelsgewerbe betreiben.</td>
+      <td>Alle Gesellschafter haften unbeschränkt mit privatem und betrieblichem Vermögen.</td>
+      <td>Nicht erforderlich</td>
+      <td>Jeder Gesellschafter erhält 4% Zinsen auf seine Kapitalanteile als Gewinn; der Restgewinn und die Verluste werden gleichmäßig nach Köpfen verteilt.</td>
+      <td>
+        <table>
+          <tr>
+            <td><strong>Innenverhältnis:</strong><br>Geschäftsführung durch alle Gesellschafter oder durch einen oder mehrere bestimmte Gesellschafter, wenn im Gesellschaftsvertrag vereinbart</td>
+            <td><strong>Außenverhältnis:</strong><br>Vertretung durch alle Gesellschafter oder durch einen oder mehrere bestimmte Gesellschafter, wenn im Gesellschaftsvertrag vereinbart; Einschränkungen des Finanzrahmens bei der Vertretung sind nach außen unwirksam</td>
+          </tr>
+        </table>
+      </td>
+      <td>Kosten für die Gewerbeanmeldung und Eintragung ins Handelsregister, außerdem Notarkosten, falls ein Gesellschafter ein Grundstück einbringt.</td>
+      <td><strong>Eigenfinanzierung:</strong> mehrere Gesellschafter<br><strong>Fremdfinanzierung:</strong> durch hohe Kreditwürdigkeit gute Finanzierungsmöglichkeiten</td>
+    </tr>
+    <tr>
+      <td>Kommanditgesellschaft (Personengesellschaft)</td>
+      <td>Mindestens ein vollhaftender Gesellschafter (Komplementär) und ein teilhaftender Gesellschafter (Kommanditist) betreiben gemeinsam ein Handelsgewerbe.</td>
+      <td>Der Komplementär haftet mit privatem und betrieblichem Vermögen; der Kommanditist haftet nur mit seiner betrieblichen Kapitaleinlage.</td>
+      <td>Nicht erforderlich</td>
+      <td>Jeder Gesellschafter erhält vier Prozent Zinsen auf seine Kapitalanteile als Gewinn; der Restgewinn und die Verluste werden in einem angemessenen Verhältnis verteilt.</td>
+      <td>
+        <table>
+          <tr>
+            <td><strong>Innenverhältnis:</strong><br>Geschäftsführung durch den Komplementär; Kommanditist hat nur bei außerordentlichen Geschäften ein Widerspruchsrecht</td>
+            <td><strong>Außenverhältnis:</strong><br>Vertretung ausschließlich durch den Komplementär</td>
+          </tr>
+        </table>
+      </td>
+      <td>Kosten für die Gewerbeanmeldung und Eintragung ins Handelsregister, außerdem Notarkosten, falls ein Gesellschafter ein Grundstück einbringt.</td>
+      <td><strong>Eigenfinanzierung:</strong> mehrere Gesellschafter, einfachere Suche von weiteren Gesellschaftern als teilhaftende Kommanditisten<br><strong>Fremdfinanzierung:</strong> durch hohe Kreditwürdigkeit gute Finanzierungsmöglichkeiten</td>
+    </tr>
+    <tr>
+      <td>Gesellschaft mit beschränkter Haftung (Kapitalgesellschaft)</td>
+      <td>Ein Unternehmen aus mehreren Gesellschaftern, das bei der Haftung auf das betriebliche Vermögen beschränkt ist.</td>
+      <td>Die GmbH haftet als eigene Rechtspersönlichkeit ausschließlich mit dem betrieblichen Vermögen, dem sogenannten Gesellschaftsvermögen. 
+        Ausnahme: Vor der Eintragung ins Handelsregister haften die Gesellschafter persönlich und solidarisch.</td>
+      <td>25.000 €</td>
+      <td>Der Gewinn wird entsprechend ihrer Kapitalanteile auf die Gesellschafter verteilt; der Verlust mindert das betriebliche Eigenkapital, wird aber nicht auf die Gesellschafter verteilt.</td>
+      <td>
+        <table>
+          <tr>
+            <td><strong>Innenverhältnis:</strong><br>Geschäftsführung durch einzelne oder gemeinsam durch mehrere Gesellschafter</td>
+            <td><strong>Außenverhältnis:</strong><br>Vertretung durch den alleinigen Geschäftsführer oder gemeinsam durch mehrere Geschäftsführer; mögliche und rechtlich wirksame Einzelvertretung, wenn im Handelsregister eingetragen</td>
+          </tr>
+        </table>
+      </td>
+      <td>Notarkosten für die Beurkundung des Gesellschaftsvertrags, abhängig von der Höhe und der Zusammensetzung des Gründungskapitals, Kosten für die Gewerbeanmeldung und Eintragung ins Handelsregister.</td>
+      <td><strong>Eigenfinanzierung:</strong> mehrere Gesellschafter, neue Gesellschafter leichter zu finden;<br><strong>Fremdfinanzierung:</strong> geringere Kreditwürdigkeit durch Haftungsbeschränkung</td>
+    </tr>
+    <tr>
+      <td>Aktiengesellschaft (Kapitalgesellschaft)</td>
+      <td>Ein Unternehmen, dessen Gesellschaftsvermögen auf mehrere Gesellschafter – die sogenannten Aktionäre – verteilt ist und dessen Haftung auf das Gesellschaftsvermögen beschränkt ist.</td>
+      <td>Die AG haftet als eigene Rechtspersönlichkeit ausschließlich mit dem betrieblichen Vermögen, dem sogenannten Gesellschaftsvermögen. 
+        Ausnahme: Vor der Eintragung ins Handelsregister haften die Gesellschafter persönlich und solidarisch.</td>
+      <td>50.000 €</td>
+      <td>Der Gewinn wird auf die Aktionäre entsprechend ihrer Anteile verteilt; der Verlust mindert das betriebliche Eigenkapital, wird aber nicht auf die Aktionäre verteilt.</td>
+      <td>
+        <table>
+          <tr>
+            <td><strong>Innenverhältnis:</strong><br>Geschäftsführung gemeinsam durch die Vorstände</td>
+            <td><strong>Außenverhältnis:</strong><br>Vertretung gemeinsam durch die Vorstände; mögliche Einzelvertretung, wenn im Handelsregister eingetragen</td>
+          </tr>
+        </table>
+      </td>
+      <td>Hohe Notarkosten für die Beurkundung des Gesellschaftsvertrags, Kosten für die Gewerbeanmeldung und Eintragung ins Handelsregister.</td>
+      <td><strong>Eigenfinanzierung:</strong> durch Ausgabe von Aktien sehr gute Eigenfinanzierungsmöglichkeiten, die jedoch mit Kosten verbunden sind;<br><strong>Fremdfinanzierung:</strong> geringere Kreditwürdigkeit durch Haftungsbeschränkung</td>
+    </tr>
+      </tbody>
+</table>
 
 > ### 5. Berechnung alle rechtsformen(Gewinn Verlust Rechnung)
+#### KG beispiel
+##### Gewinnverteilung
+Im ersten Schritt erhalten alle Gesellschafter:innen 4 % ihres Kapitalanteils als verzinste Auszahlung.
+|Gesellschafter|Höhe der Einlagen|Verzinsung 4%|
+|--------------|-----------------|-------------|
+|Komplementär|50.000 €|2.000 €|
+|Kommanditistin 1|150.000 €|6.000 €|
+|Kommanditistin 2|300.000 €|12.000 €|
+
+Nach Abzug dieser Anteile verbleibt ein Restgewinn in Höhe von 180.000 €. Von diesem Gewinn wird im zweiten Schritt das Jahresgehalt des Komplementärs in Höhe von 120.000 € abgezogen.
+
+
+
+Dann werden die verbleibenden 60.000 € entsprechend der Anteile an der Summe der Einlagen der Gesellschafter:innen verteil
+|Gesellschafter:innen|Einlage	|Gewinnanteil	|Verzinsung der Einlage	|Gewinnanteil gesamt|
+|--------------------|--------|--------------|-----------------------|-------------------|
+|Komplementär|10 %|6.000 €|2.000 €|8.000 €|
+|Kommanditistin 1|30%|18.000€|6.000€|24.000€|
+|Kommanditistin 2|60 %|36.000 €|12.000 €|48.000 €|
+
+##### Verlustverteilung
+Ebenso wir die Gewinne, werden die erlittenen Verluste zunächst in Höhe von 4 % der Kapitaleinlage der Gesellschafter:innen verteilt – sofern keine abweichende Regelung im Gesellschaftsvertrag festgelegt wurde.
+Während der Komplementär oder die Komplementärin unbeschränkt auch mit Privatvermögen für die Anteil am Verlust der KG haftet, ist die Haftung der Kommanditist:innen allerdings auf die Höhe ihrer Einlagen beschränkt.
+#### OHG
+##### Gewinn
+Gehen wir beispielhaft davon aus, dass die OHG einen Jahresgewinn von 90.000 € erwirtschaftet hat. Der Gewinn der OHG wird gemäß den Vorgaben des Handelsgesetzbuches unter vier Gesellschafter:innen aufgeteilt.
+
+- Zunächst wird der Gewinnanteil der Gesellschafter:innen in Höhe von 4 % ihrer Kapitaleinlage am Jahresgewinn ermittelt.
+- Nach Abzug dieser Gewinnanteile verbleibt ein Restgewinn in Höhe von 70.000 €, der zu gleichen Anteilen auf die Gesellschafter:innen verteilt wird.
+-Einlagenerhöhungen und Privatentnahmen beeinflussen die Höhe des Kapitalanteils der Gesellschafter:innen und werden bei der Berechnung entsprechend berücksichtigt.
+
+|Gesellschafter|	Einlage	|Gewinnanteil (4 %)|	Aufteilung Restgewinn|	Gewinnanteil gesamt|
+|--------------|-----------|-----------------|-----------------------|---------------------|
+|Gesellschafter 1|50.000 €|2.000 €|17.500 €|19.500 €|
+|Gesellschafter 2|50.000 €|2.000 €|17.500 €|19.500 €|
+|Gesellschafter 3|100.000 €|4.000 €|17.500 €|21.500 €|
+|Gesellschafter 4|300.000 €|12.000 €|17.500 €|29.500 €|
+
+##### Verlust
+Erwirtschaftet die OHG in einem Geschäftsjahr keine Gewinne, wird der Verlust nach Köpfen auf die Gesellschafter:innen verteilt (vgl. § 121 Abs. 3 HGB). Die Verzinsung ihrer Kapitaleinlagen entfällt komplett.
+
+Wie die Gewinnverteilung kann auch die Verlustverteilung der OHG individuell im Gesellschaftsvertrag geregelt werden. Denkbar ist eine Verlustbeteiligung im Verhältnis zum Kapitalanteil der Gesellschafter:innen oder eine Mischform, die bei der Berechnung sowohl einen prozentualen Anteil als auch einen Anteil nach Köpfen berücksichtigt.
+
+#### GmbH
+##### Gewinn
+|Gesellschafter|Kapital am Anfang des Jahres|Anteil|Gesamt gewinn|
+|--------------|----------------------------|------|-------------|
+|Nadine Neu|10.000€|100|2.000€|
+|Harald Hilfsbereit|20.000|200|4.000€|
+|Gesamt|30.000€|300|6.000€|
+
+#### AG
+Um das Rechenbeispiel zu vereinfachen, wird von Stückaktien ausgegangen, die alle den gleichen Wert besitzen. Neben der Anzahl der Anteile ist für die Berechnung der Gewinnbeteiligung die Dividende entscheidend. Die Dividende ist der Anteil am Bilanzgewinn einer AG, der an die Aktionär:innen ausgeschüttet wird.
+
+Beschließt die Hauptversammlung einer AG eine Dividende in Höhe von 1,50 € je Aktie, erhält eine Aktionärin oder ein Aktionär, die oder der 100 Aktien hält, also einen Gewinnanteil in Höhe von 150 €.
+<br/>
 
 > ### 6. Kaufmannseigenschaften (minimal)
+![Kaufmanns png](./assets/images/Kaufmannseigenschaften.png)
