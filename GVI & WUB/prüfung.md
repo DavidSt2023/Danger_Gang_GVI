@@ -154,38 +154,10 @@ konstitutiv, d.h. die Eintragung in das Handelsregister führt erst zu einer Rec
 
 > ### 4. Rechtsformen
 
-<table>
-  <tr>
-    <th>Rechtsform</th>
-    <th>Kurzporträt</th>
-    <th>Haftung</th>
-    <th>Gründungskapital</th>
-    <th>Gewinn&Verlust Verteilung</th>
-    <th>Geschäftsführung & Vertretung</th>
-    <th>Gründungskosten</th>
-    <th>Finanzierung</th>
-  </tr>
-  <tr>
-    <td>Einzelunternehmen</td>
-    <td>Die Einzelunternehmung ist die häufigste Rechtsform in Deutschland. Das Unternehmen wird von einem einzelnen Inhaber geführt und vertreten.</td>
-    <td>Die Inhaber haften mit privatem und betrieblichem Vermögen</td>
-    <td>nicht erforderlich</td>
-    <td>Der Inhaber erhält den gesamten Gewinn, muss aber auch den gesamten Verlust selbst tragen</td>
-    <td><strong>im Innenverhältnis:</strong> Geschäftsführung durch den Inhaber<br><strong>im Außenverhältnis:</strong> Vertretung durch den Inhaber</td>
-    <td>Kosten für die Gewerbeanmeldung und ggf. Eintragung ins Handelsregister</td>
-    <td><strong>Eigenfinanzierung:</strong> nur ein Eigentümer<br><strong>Fremdfinanzierung:</strong> durch hohe Kreditwürdigkeit gute Finanzierungsmöglichkeiten</td>
-  </tr>
-  <tr>
-    <td>Offene HandelsGesellschaft (Personengesellschaft)</td>
-    <td>Die OHG besteht aus mindestens zwei Gesellschaftern, die gemeinsam ein Handelsgewerbe betreiben.</td>
-    <td>Die OHG besteht aus mindestens zwei Gesellschaftern, die gemeinsam ein Handelsgewerbe betreiben.</td>
-    <td>nicht erforderlich</td>
-    <td>Jeder Gesellschafter erhält vier Prozent Zinsen auf seine Kapitalanteile als Gewinn; der Restgewinn und die Verluste werden gleichmäßig nach Köpfen verteilt.</td>
-    <td><strong>im Innenverhältnis:</strong> Geschäftsführung durch alle Gesellschafter oder durch einen oder mehrere bestimmte Gesellschafter, wenn im Gesellschaftsvertrag vereinbart<br><strong>im Außenverhältnis:</strong> Vertretung durch alle Gesellschafter oder durch einen oder mehrere bestimmte Gesellschafter, wenn im Gesellschaftsvertrag vereinbart; Einschränkungen des Finanzrahmens bei der Vertretung sind nach außen unwirksam</td>
-  </tr>
-</table>
-
-
+| Rechtsform                                     | Kurzporträt                                                                                     | Haftung                                     | Gründungskapital | Gewinn&Verlust Verteilung                                              | Geschäftsführung & Vertretung                                                                                                                                                            | Gründungskosten                                                    | Finanzierung                                                                                                  |
+| ----------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------- | ----------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Einzelunternehmen                               | Die Einzelunternehmung ist die häufigste Rechtsform in Deutschland. Das Unternehmen wird von einem einzelnen Inhaber geführt und vertreten | Die Inhaber haften mit privatem und betrieblichem Vermögen | nicht erforderlich | Der Inhaber erhält den gesamten Gewinn, muss aber auch den gesamten Verlust selbst tragen | **im Innenverhältnis:** Geschäftsführung durch den Inhaber <br> **im Außenverhältnis:** Vertretung durch den Inhaber                                                                       | Kosten für die Gewerbeanmeldung und ggf. Eintragung ins Handelsregister | **Eigenfinanzierung:** nur ein Eigentümer <br> **Fremdfinanzierung:** durch hohe Kreditwürdigkeit gute Finanzierungsmöglichkeiten |
+| Offene HandelsGesellschaft (Personengesellschaft) | Die OHG besteht aus mindestens zwei Gesellschaftern, die gemeinsam ein Handelsgewerbe betreiben. | Die OHG besteht aus mindestens zwei Gesellschaftern, die gemeinsam ein Handelsgewerbe betreiben. | nicht erforderlich | Jeder Gesellschafter erhält vier Prozent Zinsen auf seine Kapitalanteile als Gewinn; der Restgewinn und die Verluste werden gleichmäßig nach Köpfen verteilt. | **im Innenverhältnis:** Geschäftsführung durch alle Gesellschafter oder durch einen oder mehrere bestimmte Gesellschafter, wenn im Gesellschaftsvertrag vereinbart <br> **im Außenverhältnis:** Vertretung durch alle Gesellschafter oder durch einen oder mehrere bestimmte Gesellschafter, wenn im Gesellschaftsvertrag vereinbart; Einschränkungen des Finanzrahmens bei der Vertretung sind nach außen unwirksam |
 
 
 
