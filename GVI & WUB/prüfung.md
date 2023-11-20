@@ -145,6 +145,14 @@ Personenfirma|	Aus der Bezeichnung einer Personenfirma sind ein oder mehrere Per
 |Gesellschaft mit beschränkter Haftung|	GmbH|
 |Aktiengesellschaft|	AG|
 
+#### Prokura / Handelsvollmacht
+
+|Art|Erteilung|Umfang|
+|---|---------|------|
+|Prokura (HGB § 48-53)|- Erteilung nur von Inhaber des Handelsgeschäfts oder dessen gesetzlichen Vertreter, vgl. § 48 I HGB Erteilung nur ausdrücklich Eintragung der Erteilung im Handelsregister, vgl. § 53 I HGB, nur deklaratorisch (§ 15 I HGB beachten: Handelsregister erzeugt Rechtsschein)|Umfang gesetzlich geregelt, §§ 49, 50 HGB Prokura gilt für alle Geschäfte eines Handelsgewerbes, also ermächtigt zu allen Geschäften, die ein Handelsgewerbe mit sich bringen kann, vgl. § 49 I HGB Prokura ist nicht übertragbar (höchstpersönlich), vgl. § 52 II HGB|
+|Handlungsvollmacht, §§ 54 ff. HGB|kann von Inhaber des Handelsgeschäft oder seinem Vertreter (gesetzlicher Vertreter; rechtsgeschäftlich  bestellter Vertreter) erteilt werden Unterschied zu Prokura: Handlungsvollmacht kann auch konkludent erteilt werden keine Eintragung ins Handelsregister erforderlich|Unterschied zu Prokura: Umfang der Handlungsvollmacht nicht gesetzlich festgelegt, also frei bestimmbar Im Zweifel: alle Geschäfte eines derartigen Handelsgewerbes erfasst Unterschied zu Proukra: mit Zustimmung des Inhabers des Handelsgeschäfts auch übertragbar, vgl. § 58 HGB|
+
+[..Prokura](https://www.handelsrecht-ratgeber.de/handelsrecht/der-kaufmann/prokura-und-handlungsvollmacht-vertreter-des-kaufmanns)
 [..More](https://www.lernnetz24.de/bwl/hinweise/92.html)
 >### 3. Handelsregister
 Die Eintragungen in das Handelsregister sind zum einen
@@ -194,7 +202,7 @@ konstitutiv, d.h. die Eintragung in das Handelsregister führt erst zu einer Rec
         <table>
           <tr>
             <td><strong>Innenverhältnis:</strong><br>Geschäftsführung durch alle Gesellschafter oder durch einen oder mehrere bestimmte Gesellschafter, wenn im Gesellschaftsvertrag vereinbart</td>
-            <td><strong>Außenverhältnis:</strong><br>Vertretung durch alle Gesellschafter oder durch einen oder mehrere bestimmte Gesellschafter, wenn im Gesellschaftsvertrag vereinbart; Einschränkungen des Finanzrahmens bei der Vertretung sind nach außen unwirksam</td>
+            <tr><strong>Außenverhältnis:</strong><br>Vertretung durch alle Gesellschafter oder durch einen oder mehrere bestimmte Gesellschafter, wenn im Gesellschaftsvertrag vereinbart; Einschränkungen des Finanzrahmens bei der Vertretung sind nach außen unwirksam</tr>
           </tr>
         </table>
       </td>
@@ -211,7 +219,7 @@ konstitutiv, d.h. die Eintragung in das Handelsregister führt erst zu einer Rec
         <table>
           <tr>
             <td><strong>Innenverhältnis:</strong><br>Geschäftsführung durch den Komplementär; Kommanditist hat nur bei außerordentlichen Geschäften ein Widerspruchsrecht</td>
-            <td><strong>Außenverhältnis:</strong><br>Vertretung ausschließlich durch den Komplementär</td>
+            <tr><strong>Außenverhältnis:</strong><br>Vertretung ausschließlich durch den Komplementär</tr>
           </tr>
         </table>
       </td>
@@ -229,7 +237,7 @@ konstitutiv, d.h. die Eintragung in das Handelsregister führt erst zu einer Rec
         <table>
           <tr>
             <td><strong>Innenverhältnis:</strong><br>Geschäftsführung durch einzelne oder gemeinsam durch mehrere Gesellschafter</td>
-            <td><strong>Außenverhältnis:</strong><br>Vertretung durch den alleinigen Geschäftsführer oder gemeinsam durch mehrere Geschäftsführer; mögliche und rechtlich wirksame Einzelvertretung, wenn im Handelsregister eingetragen</td>
+            <tr><strong>Außenverhältnis:</strong><br>Vertretung durch den alleinigen Geschäftsführer oder gemeinsam durch mehrere Geschäftsführer; mögliche und rechtlich wirksame Einzelvertretung, wenn im Handelsregister eingetragen</tr>
           </tr>
         </table>
       </td>
@@ -247,7 +255,7 @@ konstitutiv, d.h. die Eintragung in das Handelsregister führt erst zu einer Rec
         <table>
           <tr>
             <td><strong>Innenverhältnis:</strong><br>Geschäftsführung gemeinsam durch die Vorstände</td>
-            <td><strong>Außenverhältnis:</strong><br>Vertretung gemeinsam durch die Vorstände; mögliche Einzelvertretung, wenn im Handelsregister eingetragen</td>
+            <tr><strong>Außenverhältnis:</strong><br>Vertretung gemeinsam durch die Vorstände; mögliche Einzelvertretung, wenn im Handelsregister eingetragen</tr>
           </tr>
         </table>
       </td>
