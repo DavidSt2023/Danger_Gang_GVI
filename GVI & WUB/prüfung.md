@@ -168,7 +168,7 @@ konstitutiv, d.h. die Eintragung in das Handelsregister führt erst zu einer Rec
   </thead>
   <tbody>
     <tr>
-      <td>Einzelunternehmen</td>
+      <td>Einzelunternehmen HGB Abteilung A</td>
       <td>Die Einzelunternehmung ist die häufigste Rechtsform in Deutschland. Das Unternehmen wird von einem einzelnen Inhaber geführt und vertreten.</td>
       <td>Der Inhaber haftet mit privatem und betrieblichem Vermögen.</td>
       <td>Nicht erforderlich</td>
@@ -185,7 +185,7 @@ konstitutiv, d.h. die Eintragung in das Handelsregister führt erst zu einer Rec
       <td><strong>Eigenfinanzierung:</strong> nur ein Eigentümer<br><strong>Fremdfinanzierung:</strong> durch hohe Kreditwürdigkeit gute Finanzierungsmöglichkeiten</td>
     </tr>
     <tr>
-      <td>Offene HandelsGesellschaft (Personengesellschaft)</td>
+      <td>Offene HandelsGesellschaft (Personengesellschaft) HGB Abteilung A</td>
       <td>Die OHG besteht aus mindestens zwei Gesellschaftern, die gemeinsam ein Handelsgewerbe betreiben.</td>
       <td>Alle Gesellschafter haften unbeschränkt mit privatem und betrieblichem Vermögen.</td>
       <td>Nicht erforderlich</td>
@@ -202,7 +202,7 @@ konstitutiv, d.h. die Eintragung in das Handelsregister führt erst zu einer Rec
       <td><strong>Eigenfinanzierung:</strong> mehrere Gesellschafter<br><strong>Fremdfinanzierung:</strong> durch hohe Kreditwürdigkeit gute Finanzierungsmöglichkeiten</td>
     </tr>
     <tr>
-      <td>Kommanditgesellschaft (Personengesellschaft)</td>
+      <td>Kommanditgesellschaft (Personengesellschaft) HGB Abteilung A</td>
       <td>Mindestens ein vollhaftender Gesellschafter (Komplementär) und ein teilhaftender Gesellschafter (Kommanditist) betreiben gemeinsam ein Handelsgewerbe.</td>
       <td>Der Komplementär haftet mit privatem und betrieblichem Vermögen; der Kommanditist haftet nur mit seiner betrieblichen Kapitaleinlage.</td>
       <td>Nicht erforderlich</td>
@@ -219,7 +219,7 @@ konstitutiv, d.h. die Eintragung in das Handelsregister führt erst zu einer Rec
       <td><strong>Eigenfinanzierung:</strong> mehrere Gesellschafter, einfachere Suche von weiteren Gesellschaftern als teilhaftende Kommanditisten<br><strong>Fremdfinanzierung:</strong> durch hohe Kreditwürdigkeit gute Finanzierungsmöglichkeiten</td>
     </tr>
     <tr>
-      <td>Gesellschaft mit beschränkter Haftung (Kapitalgesellschaft)</td>
+      <td>Gesellschaft mit beschränkter Haftung (Kapitalgesellschaft)  HGB Abteilung B</td>
       <td>Ein Unternehmen aus mehreren Gesellschaftern, das bei der Haftung auf das betriebliche Vermögen beschränkt ist.</td>
       <td>Die GmbH haftet als eigene Rechtspersönlichkeit ausschließlich mit dem betrieblichen Vermögen, dem sogenannten Gesellschaftsvermögen. 
         Ausnahme: Vor der Eintragung ins Handelsregister haften die Gesellschafter persönlich und solidarisch.</td>
@@ -237,7 +237,7 @@ konstitutiv, d.h. die Eintragung in das Handelsregister führt erst zu einer Rec
       <td><strong>Eigenfinanzierung:</strong> mehrere Gesellschafter, neue Gesellschafter leichter zu finden;<br><strong>Fremdfinanzierung:</strong> geringere Kreditwürdigkeit durch Haftungsbeschränkung</td>
     </tr>
     <tr>
-      <td>Aktiengesellschaft (Kapitalgesellschaft)</td>
+      <td>Aktiengesellschaft (Kapitalgesellschaft) HGB Abteilung B</td>
       <td>Ein Unternehmen, dessen Gesellschaftsvermögen auf mehrere Gesellschafter – die sogenannten Aktionäre – verteilt ist und dessen Haftung auf das Gesellschaftsvermögen beschränkt ist.</td>
       <td>Die AG haftet als eigene Rechtspersönlichkeit ausschließlich mit dem betrieblichen Vermögen, dem sogenannten Gesellschaftsvermögen. 
         Ausnahme: Vor der Eintragung ins Handelsregister haften die Gesellschafter persönlich und solidarisch.</td>
