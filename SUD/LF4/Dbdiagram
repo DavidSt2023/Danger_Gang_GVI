@@ -1,0 +1,97 @@
+TABLE Artikel {
+    ArtikelID INT
+    Artikelname VARCHAR(255)
+    Verkaufspreis DECIMAL(10, 2)
+    AktuellerLagerbestand INT
+    Mindestbestand INT
+    Auslaufartikel BOOLEAN
+    WarengruppenID INT
+}
+
+TABLE Warengruppen {
+    WarengruppenID INT
+    Beschreibung VARCHAR(255)
+    Bild BLOB
+}
+
+TABLE Lieferanten {
+    LieferantenID INT
+    Firmenname VARCHAR(255)
+    Telefon VARCHAR(20)
+    Kontaktperson VARCHAR(255)
+}
+
+TABLE Lieferantenpreise {
+    LieferantenPreisID INT
+    LieferantenID INT 
+    ArtikelID INT 
+    Listenpreis DECIMAL(10, 2)
+    Angebotserstellungsdatum DATE
+    TatsaechlicherGezahlterPreis DECIMAL(10, 2)
+}
+
+TABLE Bestellungen {
+    BestellungsID INT
+    LieferantenID INT 
+    Bestelldatum DATE
+}
+
+TABLE Kunden {
+    KundenID INT
+    Name VARCHAR(255)
+    Anschrift VARCHAR(255)
+}
+
+TABLE Auftraege {
+    AuftragsID INT
+    KundenID INT
+    MitarbeiterID INT
+    Auftragsdatum DATE
+    Versanddatum DATE
+    Lieferdatum DATE
+    Lieferadresse VARCHAR(255)
+}
+
+TABLE Versandfirmen {
+    VersandID INT
+    Name VARCHAR(255)
+    Versandpreis DECIMAL(10, 2)
+}
+
+TABLE Mitarbeiter {
+    MitarbeiterID INT
+    PersoenlicheDaten VARCHAR(255)
+}
+
+TABLE Mitarbeiter_Auftraege {
+    MitarbeiterID INT
+    AuftragsID INT 
+}
+
+TABLE AktuelleAngebotspreise {
+    AngebotsID INT
+    LieferantenID INT
+    ArtikelID INT 
+    AktuellerAngebotspreis DECIMAL(10, 2)
+    Aktualisierungsdatum DATE
+}
+Ref:"Artikel"."WarengruppenID" < "Warengruppen"."WarengruppenID"
+
+Ref: "Lieferanten"."LieferantenID" < "Lieferantenpreise"."LieferantenID"
+
+Ref: "Lieferantenpreise"."ArtikelID" < "Artikel"."ArtikelID"
+
+Ref: "Lieferanten"."LieferantenID" < "Bestellungen"."LieferantenID"
+
+Ref: "Mitarbeiter"."MitarbeiterID" < "Auftraege"."MitarbeiterID"
+
+Ref: "Mitarbeiter"."MitarbeiterID" < "Mitarbeiter_Auftraege"."MitarbeiterID"
+
+Ref: "AktuelleAngebotspreise"."LieferantenID" < "Lieferanten"."LieferantenID"
+
+
+Ref: "Artikel"."ArtikelID" < "AktuelleAngebotspreise"."ArtikelID"
+
+Ref: "Auftraege"."AuftragsID" < "Mitarbeiter_Auftraege"."AuftragsID"
+
+Ref: "Kunden"."KundenID" < "Auftraege"."KundenID"
