@@ -1,0 +1,53 @@
+TABLE Mieter {
+    Mieternummer INT [pk]
+    Name VARCHAR(255)
+    Anschrift VARCHAR(255)
+}
+
+TABLE Fahrzeug {
+    Fahrzeugnummer INT[pk]
+    Baujahr INT
+    Erwerbsdatum DATE
+    FahrzeugtypID INT 
+}
+
+TABLE Fahrzeugtyp {
+    FahrzeugtypID INT [pk]
+    Marke VARCHAR(255)
+    Modell VARCHAR(255)
+}
+
+TABLE Mietvertrag {
+    MietvertragsID INT [pk]
+    Mieternummer INT 
+    Fahrzeugnummer INT 
+    MietdauerInTagen INT
+    Tagespreis DECIMAL(10, 2)
+    Vertragsabschlussdatum DATE
+    Archiviert BOOLEAN 
+}
+
+TABLE Fahrzeugklasse {
+    FahrzeugklasseID INT [pk]
+    KlasseName VARCHAR(255)
+}
+
+TABLE Versicherungsgesellschaft {
+    Versicherungsnummer INT [pk]
+    Firmenname VARCHAR(255)
+    AnsprechpartnerNachname VARCHAR(255)
+}
+
+TABLE Versicherungsvertrag {
+    VersicherungsvertragsID INT [pk] 
+    FahrzeugklasseID INT 
+    Versicherungsnummer INT 
+    GuenstigsteVersicherung BOOLEAN 
+    Vertragsabschlussdatum DATE
+    Archiviert BOOLEAN 
+}
+Ref "Fahrzeug"."FahrzeugtypID" < "Fahrzeugtyp"."FahrzeugtypID"
+Ref "Mietvertrag"."Mieternummer" < "Mieter"."Mieternummer"
+Ref "Mietvertrag"."Fahrzeugnummer" < "Fahrzeug"."Fahrzeugnummer"
+ref "Versicherungsvertrag"."FahrzeugklasseID"  < "Fahrzeugklasse"."FahrzeugklasseID"
+ref "Versicherungsvertrag"."Versicherungsnummer" < "Versicherungsgesellschaft"."Versicherungsnummer"
