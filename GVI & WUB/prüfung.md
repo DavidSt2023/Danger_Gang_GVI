@@ -61,7 +61,7 @@ Das Modell des vollkommenen Marktes beschreibt die optimale Marktform, die sich 
   - keine räumlichen Unterschiede
   - keine sächlichen Unterschiede
   - keine zeitlichen Unterschiede
-  - keine persönlichen Unterscheide
+  - keine persönlichen Unterschiede
 
 ###  Unvollkommner Markt 
 Der unvollkommene Markt taucht in der Praxis häufig auf, denn den vollkommenen Markt gibt es fast ausschließlich in der Theorie. Ein wesentliches Merkmal besteht für unvollkommene Märkte darin, dass dort keine gleichartigen (homogenen) Waren anzutreffen sind. Stattdessen werden auf dem unvollkommenen Markt insbesondere ungleichartige Güter, auch als heterogen bezeichnet, gehandelt. Der Grund besteht darin, dass die einzelnen Waren sich beispielsweise in ihrer Form oder Verpackung voneinander unterscheiden.
