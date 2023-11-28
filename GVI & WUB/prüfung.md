@@ -55,10 +55,15 @@ kann. Wer so handelt, verfährt nach dem sogenannten wirtschaftlichen oder ökon
 
 ###   Vollkommener Markt
 Das Modell des vollkommenen Marktes beschreibt die optimale Marktform, die sich dadurch auszeichnet, dass es so viele Anbietende und Nachfragende auf einem Markt gibt, dass niemand von ihnen Marktmacht besitzt. Es handelt sich allerdings nur um ein Modell, das in der Realität in der Reinform nicht existiert.
-
 [..More](https://www.bpb.de/kurz-knapp/lexika/lexikon-der-wirtschaft/21070/vollkommener-markt/)
+#### Bedingungen für einen vollkommenen Markt
+  - Vollkommene Markttransparenz
+  - keine räumlichen Unterschiede
+  - keine sächlichen Unterschiede
+  - keine zeitlichen Unterschiede
+  - keine persönlichen Unterschiede
 
-   ###  Unvollkommner Markt 
+###  Unvollkommner Markt 
 Der unvollkommene Markt taucht in der Praxis häufig auf, denn den vollkommenen Markt gibt es fast ausschließlich in der Theorie. Ein wesentliches Merkmal besteht für unvollkommene Märkte darin, dass dort keine gleichartigen (homogenen) Waren anzutreffen sind. Stattdessen werden auf dem unvollkommenen Markt insbesondere ungleichartige Güter, auch als heterogen bezeichnet, gehandelt. Der Grund besteht darin, dass die einzelnen Waren sich beispielsweise in ihrer Form oder Verpackung voneinander unterscheiden.
 
 Darüber hinaus gibt es auf dem unvollkommenen Markt keine absolute Transparenz und Marktübersicht, wie es bei vollkommenen Märkten der Fall ist. Das ist damit zu begründen, dass sowohl Käufer als auch Verkäufer von Waren nicht im Detail und ohne Ausnahme über sämtliche Konditionen eines Produktes, wie zum Beispiel dessen Qualität oder deren Preise, informiert sind. Zudem werden Angebot und Nachfrage auf unvollkommenen Märkten sowohl auf Verkäufer- als auch auf der Käuferseite beeinflusst, beispielsweise durch individuelle Präferenzen. So bevorzugen vielleicht auch Sie für ein bestimmtes Produkt einen Verkäufer, mit dem Sie schon Jahre gute Erfahrungen gemacht haben, auch wenn ein Produkt des Mitbewerbers vielleicht besser wäre.
