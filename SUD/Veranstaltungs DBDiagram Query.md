@@ -3,8 +3,8 @@
     Person_ID INT [pk]
     Name VARCHAR(255)
     Adresse VARCHAR(255)
-    Teilnehmer BOOLEAN
-    Kursleiter BOOLEAN
+    Teilnehmer_ID BOOLEAN
+    Kursleiter INT
     Bonitaet VARCHAR(50)
 }
 
@@ -36,9 +36,16 @@ TABLE Kursveranstaltungen {
     Kursleiter_ID INT 
     Kursbeginn DATE
 }
+TABLE Teilnehmer{
+  Teilnehmer_ID INT
+  Person_ID INT
+  Veranstaltungs_ID INT
+}
 ref:Kursveranstaltungen.Kursleiter_ID > Personen.Person_ID
 ref: Kursveranstaltungen.Standort_ID > Standorte.Standort_ID
 ref: Kursveranstaltungen.Kurs_ID > Kurse.Kurs_ID
 ref:Kursleiter_Kurse.Kurs_ID > Kurse.Kurs_ID
-ref:Kursleiter_Kurse.Kursleiter_ID > Personen.Person_ID 
+ref:Kursleiter_Kurse.Kursleiter_ID > Personen.Person_ID
+
+Ref: "Personen"."Teilnehmer_ID" < "Teilnehmer"."Teilnehmer_ID"
 ´´´
