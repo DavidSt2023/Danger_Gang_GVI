@@ -8,5 +8,4 @@ PCloud Link with important stuff: https://e.pcloud.link/publink/show?code=kZEJ1m
 https://www.youtube.com/watch?v=xvFZjo5PgG0
 
 
-background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
