@@ -29,6 +29,16 @@
 - Wenn sich über zwei collums sich ein eindeutiger PK setzten läst dann verwenden wir zwei FK um ein PK zu setzten  dafür mussen aber beide FK in der beiden Tabellen sein
 - ![](./assets/FK-zu-PK.png)
 
+### Transformationen
+**Wir Transformieren Wenn Wir Tabellen aufteilen müssen Wegen der 3Normalform**
+|Beispiele|
+|--|
+|![](./assets/Transformationen_1.png)|
+|![](./assets/Transformationen_2.png)|
+|![](./assets/Transformationen_3.png)|
+|![](./assets/Transformationen_4.png)|
+
+
  
 >## Beispiele 
 >####  *Beachten das in den lösungen nicht alles stimmt*
