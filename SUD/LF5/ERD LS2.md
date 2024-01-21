@@ -1,7 +1,11 @@
 ## Thema: Enity Realtionship
 
-
-![Otto&Co ERD](./assets/advancedChenNotation.png)
+|Kradinalität|Anzal der Tupel der Relation |
+|--|--|
+|1|genau ein Datensatzt|
+|c|höstens ein (0 oder 1) Datensatzt|
+|m|mindestens ein Datensazt (>=1)|
+|mc|Beliebig viele Datensätzte( >=0)|
 
 |Kradinalität|Anzal der Tupel der Relation |Beispiel|Zustatz|
 |------------|-----------------------------|--|--|
