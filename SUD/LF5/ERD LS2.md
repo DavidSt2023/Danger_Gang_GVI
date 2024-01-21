@@ -6,7 +6,7 @@
 |Kradinalität|Anzal der Tupel der Relation |Beispiel|Zustatz|
 |------------|-----------------------------|--|--|
 |1 => 1|Genau ein Datenstazt zu Genau ein Datenstazt |![Otto&Co ERD](./assets/1-zu-1-1.png)|![](./assets/1-zu-1-2.png)|
-|1 => c|Genau ein Datenstazt zu hostens 0 oder 1|![](./assets/1-zu-c.png) |
+|1 => c|Genau ein Datenstazt zu hostens 0 oder 1|![](./assets/1-zu-c.png) |![](./assets/1-zu-c-2.png)|
 |1 => m|Genau ein Datenstazt zu mindestens ein Datensatz (>=1) |![Otto&Co ERD](./assets/1-zu-m.png) |
 |1 => mc|Genau ein Datenstazt zu Belieblig viele Datensatz (>=0) |![Otto&Co ERD](./assets/1-zu-mc.png) |
 |mc => mc|Belieblig viele Datensatz zu Belieblig viele Datensatz (>=0) |![Otto&Co ERD](./assets/mc-zu-mc.png) |![Otto&Co ERD](./assets/mc-zu-mc-2.png)|
@@ -27,6 +27,8 @@
 
 * steht in der Tabelle **ABER** nicht im ERD, da implizit!
 - Wenn sich über zwei collums sich ein eindeutiger PK setzten läst dann verwenden wir zwei FK um ein PK zu setzten  dafür mussen aber beide FK in der beiden Tabellen sein
+- ![](./assets/FK-zu-PK.png)
+
  
 >## Beispiele 
 >####  *Beachten das in den lösungen nicht alles stimmt*
