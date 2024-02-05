@@ -34,7 +34,7 @@ CREATE TABLE Bildungsgang
 CREATE TABLE Raumfunktion
 (
     raumfunktionID INT NOT NULL AUTO_INCREMENT,
-    raumFunktion VARCHAR(30)
+    raumFunktion VARCHAR(30),
     PRIMARY KEY (raumfunktionID)
 );
 
