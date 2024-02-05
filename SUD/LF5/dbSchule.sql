@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS dbSchule;
 CREATE database dbSchule;
 USE dbSchule;
 
@@ -44,13 +45,6 @@ CREATE TABLE Raum
     raumFunktion INT NOT NULL,
     FOREIGN KEY (raumFunktion)
         REFERENCES Raumfunktion(raumfunktionID),
-    PRIMARY KEY (raumID)
-);
-
-CREATE TABLE Raum
-(
-    raumID INT NOT NULL AUTO_INCREMENT,
-    raumFunktion VARCHAR(30),
     PRIMARY KEY (raumID)
 );
 
