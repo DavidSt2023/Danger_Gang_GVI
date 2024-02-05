@@ -1,5 +1,5 @@
-CREATE database dbSchule
-USE dbSchule
+CREATE database dbSchule;
+USE dbSchule;
 
 CREATE TABLE Schueler
 (
