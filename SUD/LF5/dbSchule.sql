@@ -14,7 +14,7 @@ CREATE TABLE Schueler
 
 CREATE TABLE Lehrer
 (
-    lehrerKuerzel CHAR(3) NOT NULL,
+    lehrerKuerzel CHAR(4) NOT NULL,
     nachname CHAR(30) NOT NULL,
     telefonNr VARCHAR(30) NOT NULL,
     geburtsdatum DATE,
@@ -26,7 +26,7 @@ CREATE TABLE Bildungsgang
 (
     bildungsgangID INT NOT NULL AUTO_INCREMENT,
     bildungsgangBez VARCHAR(30) NOT NULL,
-    leiterKuerzel CHAR(3) NOT NULL,
+    leiterKuerzel CHAR(4) NOT NULL,
     FOREIGN KEY (leiterKuerzel)
         REFERENCES Lehrer(lehrerKuerzel),
     PRIMARY KEY (bildungsgangID)
@@ -67,7 +67,7 @@ CREATE TABLE Fach
 CREATE TABLE Klasse
 (
     klassenID INT NOT NULL AUTO_INCREMENT,
-    klassenLehrer CHAR(3) NOT NULL,
+    klassenLehrer CHAR(4) NOT NULL,
     bildungsgangID INT NOT NULL,
     FOREIGN KEY (klassenLehrer)
         REFERENCES Lehrer(lehrerKuerzel),
@@ -80,7 +80,7 @@ CREATE TABLE Stundenplan
 (
     stundenplanID INT NOT NULL AUTO_INCREMENT,
     klassenID INT NOT NULL,
-    lehrerID CHAR(3) NOT NULL,
+    lehrerID CHAR(4) NOT NULL,
     fachBereichID INT NOT NULL,
     datum DATE NOT NULL,
     stunde INT NOT NULL,
