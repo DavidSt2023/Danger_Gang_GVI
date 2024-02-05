@@ -25,6 +25,9 @@ CREATE TABLE Bildungsgang
 (
     bildungsgangID INT NOT NULL AUTO_INCREMENT,
     bildungsgangBez VARCHAR(30) NOT NULL,
+    leiterKuerzel CHAR(3) NOT NULL,
+    FOREIGN KEY (leiterKuerzel)
+        REFERENCES Lehrer(lehrerKuerzel),
     PRIMARY KEY (bildungsgangID)
 );
 
