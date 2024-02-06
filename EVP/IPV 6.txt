@@ -1,0 +1,16 @@
+IPV 6 schreibweise: Hextets
+//Hexa decimal Rechnungs Tabel
+eine IPV 6 besteht aus 8 blöcken von 4 Hexadecaimal zahlen
+Kann komprimiert werden in dem führende 0 weggelassen werden 
+Es darf 1 hextet weglassen werden wenn es nur 0 ist durch ::
+oder auch :0000:0000:0000:0000:0000:0000:0000:0001 => ::1
+Jedes Hextet hat 16 bit
+In der Regel 4 Hextets NetzTeil & 4 Stellen SchnittstellenID
+
+Gloable Unicast : Einmalige Adresse
+Link-Local: nur im Zentralem netzt (Local Eindeutig)/wird nicht geruted
+LoopBack: ::1/128 /Local host 
+No Spezified Adresse = ::/128
+Unique Local: FC00::/7-FDFF::/7
+Embadded IPV 4: für Kompadibilität
+
