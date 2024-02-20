@@ -1,0 +1,68 @@
+
+SELECT *
+FRom lieferant
+WHERE
+    `LLand` = 'USA'
+ORDER BY `LOrt`
+SELECT *
+FROM artikel
+WHERE
+    `Auslaufartikel` IS TRUE
+SELECT Lb.`Bestelldatum`, l.`LFirma`
+FROM
+    lieferant l
+    INNER JOIN liefbestellung Lb ON l.LNr = Lb.`FKLieferant`
+WHERE
+    Lb.`Bestelldatum` = '2021-04-26'
+    AND l.`LFirma` LIKE 'F%ini'
+SELECT *
+FROM artikel Ar
+    INNER JOIN warengruppe Wg ON Ar.`FKWarengruppe` = Wg.`WGNr`
+WHERE
+    Wg.`Beschreibung` LIKE '%Nudeln%'
+SELECT *
+FROM kunde
+WHERE
+    `KdNachname` LIKE 'M__er'
+SELECT *
+FROM artikel Ar
+    INNER JOIN warengruppe Wg ON Ar.`FKWarengruppe` = Wg.`WGNr`
+WHERE
+    NOT Wg.`GruppenName` LIKE '%Süßwaren%'
+ORDER BY Wg.`GruppenName`, Ar.`Artikelname`
+SELECT *
+FROM kunde ku
+    INNER JOIN kdauftrag ka ON ku.`KdNr` = ka.`FKKunde`
+WHERE
+    ka.`Auftragsdatum` BETWEEN '2021-06-01' AND '2021-06-31'
+    OR ka.`Lieferdatum` BETWEEN '2021-06-01' AND '2021-06-31'
+SELECT *
+FROM
+    lieferant li
+    INNER JOIN liefbestellung lb ON li.`LNr` = lb.`FKLieferant`
+WHERE
+    lb.`Bestelldatum` BETWEEN '2021-03-01' AND '2021-05-31'
+    AND li.`LFirma` LIKE 'Fr%markets'
+SELECT *
+FROM personal
+WHERE
+    `Geschlecht` = 'W'
+    AND `Geburtsdatum` > '1986-01-01'
+    OR `Bemerkungen` LIKE '%University of California%'
+
+SELECT *
+FROM
+    kunde ku
+    INNER JOIN kdauftrag kd ON ku.`KdNr` = kd.`FKKunde`
+    INNER JOIN abweichenderversand av ON av.`AuftragsNr` = kd.`AuftragsNr`
+WHERE
+    av.`Land` = 'USA'
+    AND ku.`KdLand` <> 'USA' 
+
+    
+SELECT li.`LFirma`,ar.*
+FROM
+    lieferant li
+    INNER JOIN liefangebot la ON li.`LNR` = la.`FKLieferant`
+    INNER JOIN artikel ar ON ar.`ArtikelNr` = la.`FKArtikel`
+    WHERE ar.`Auslaufartikel` <> 1 AND ar.`Lagerbestand` =  0
