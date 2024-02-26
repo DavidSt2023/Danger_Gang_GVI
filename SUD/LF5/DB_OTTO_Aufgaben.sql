@@ -129,6 +129,15 @@ ORDER BY Verkaufspreis LIMIT 5;
 -- 20
 
 -- 21
+SELECT
+    `Vorname`,
+    `DurchwahlOffice`,
+    FLOOR(DATEDIFF(CURDATE(), `Geburtsdatum`) / 365)
+FROM
+    personal
+WHERE
+    TIMESTAMPDIFF(YEAR, `Geburtsdatum`, CURDATE()) BETWEEN 25
+    AND 35
 
 -- 22
 SELECT Artikelname,Angebotsdatum, DATEDIFF('2021-10-01',Angebotsdatum) as Tage_Seit_Bestellung
