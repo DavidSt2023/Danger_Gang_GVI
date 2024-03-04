@@ -1,0 +1,31 @@
+-- Aufgabe 3
+
+-- 1
+SELECT
+    MIN(Verkaufspreis) as Niedrigster_Preis,
+    ROUND(AVG(Verkaufspreis),2) as Durschnitt_Preis,
+    MAX(Verkaufspreis) as Max_Preis
+FROM artikel;
+
+-- 2
+SELECT
+    GruppenName,
+    MIN(Verkaufspreis) as Niedrigster_Preis,
+    ROUND(AVG(Verkaufspreis),2) as Durschnitt_Preis,
+    MAX(Verkaufspreis) as Max_Preis
+FROM
+    artikel ar
+        INNER JOIN warengruppe wg ON ar.FKWarengruppe = wg.WGNr
+GROUP BY FKWarengruppe
+HAVING AVG(Verkaufspreis) > 21 AND MAX(Verkaufspreis) < 100;
+
+-- 3 richtig?
+SELECT LFirma, BestellteAnzahl, Artikelname
+FROM
+    lieferant li
+        INNER JOIN liefbestellung lb ON li.LNr = lb.FKLieferant
+        INNER JOIN liefbestellposition lbp ON lb.Bestellnr = lbp.FKBestellung
+        INNER JOIN artikel ar ON lbp.FKArtikel = ar.ArtikelNr
+WHERE
+    BestellteAnzahl < 60
+GROUP BY LFirma;
