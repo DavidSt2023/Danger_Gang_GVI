@@ -127,23 +127,20 @@ WHERE wg.Beschreibung <> '%Meeresfrüchte%' or wg.Beschreibung <> '%Fleischprodu
 ORDER BY Verkaufspreis LIMIT 5;
 
 -- 20
-
 SELECT
-    `AuftragsNr`,
-    `ArtikelNr`,
-    `Verkaufspreis`,
-    ROUND(SUM(`Verkaufspreis`) *(1 - `Rabatt`) * 1.19, 2)
+    AuftragsNr,
+    ArtikelNr,
+    Verkaufspreis,
+    ROUND(SUM(Verkaufspreis) *(1 - Rabatt) * 1.19, 2)
 FROM
     artikel
-    INNER JOIN kdauftragsposition kp ON `ArtikelNr` = `FKArtikel`
-    INNER JOIN kdauftrag ka ON kp.`FKAuftrag` = ka.`AuftragsNr`
+    INNER JOIN kdauftragsposition kp ON ArtikelNr = FKArtikel
+    INNER JOIN kdauftrag ka ON kp.FKAuftrag = ka.AuftragsNr
 WHERE
-    `Auftragsdatum` BETWEEN '2020-01-01'
+    Auftragsdatum BETWEEN '2020-01-01'
     AND '2020-03-31'
 GROUP BY
-    `AuftragsNr`
-
-
+    AuftragsNr
 
 -- 21
 SELECT
@@ -211,34 +208,50 @@ WHERE (Verkaufspreis - Einkaufspreis) < 0 and YEAR(Bestelldatum) in (2020, 2021)
 
 
 -- Aufgabe 3
---1
-SELECT `KdLand`,COUNT(`KdLand`)  from kunde,kdauftrag  GROUP BY `KdLand`
+-- 1
+SELECT KdLand,
+       COUNT(KdLand)
+FROM
+    kunde
+GROUP BY KdLand;
 
---2
+-- 2
 SELECT
-    COUNT(kd.`FKKunde`),
-    ku.`KdNachname`
+    COUNT(FKKunde),
+    KdNachname
 from
     kunde ku
-    INNER JOIN kdauftrag kd ON ku.`KdNr` = kd.`FKKunde`
+        INNER JOIN kdauftrag kd ON ku.KdNr = kd.FKKunde
 WHERE
-    ku.`KdLand` = 'Deutschland'
+    KdLand = 'Deutschland'
 GROUP BY
-    kd.`FKKunde`
+    FKKunde
 HAVING
-    COUNT(kd.`FKKunde`) > 5
+    COUNT(FKKunde) > 5;
 
---3
-SELECT ROUND(MAX(`Verkaufspreis`),2),ROUND(MIN(`Verkaufspreis`),2) FROM artikel 
+-- 3
+SELECT ROUND(MAX(Verkaufspreis),2),
+       ROUND(MIN(Verkaufspreis),2)
+FROM
+    artikel;
 
+-- 4
+SELECT ROUND(MAX(Verkaufspreis),2),
+       ROUND(AVG(Verkaufspreis),2),
+       ROUND(MIN(Verkaufspreis),2)
+FROM
+    artikel;
 
---4
-SELECT ROUND(MAX(`Verkaufspreis`),2),ROUND(AVG(`Verkaufspreis`),2),ROUND(MIN(`Verkaufspreis`),2) FROM artikel 
-
---5
-SELECT wa.`GruppenName`,ROUND(MAX(`Verkaufspreis`),2),ROUND(AVG(`Verkaufspreis`),2),ROUND(MIN(`Verkaufspreis`),2) FROM artikel INNER JOIN warengruppe wa ON `FKWarengruppe` = `WGNr` GROUP BY `FKWarengruppe`  HAVING AVG(`Verkaufspreis`) > 21  AND  MAX(`Verkaufspreis`) < 100 
-
-
+-- 5
+SELECT GruppenName,
+       ROUND(MAX(Verkaufspreis),2),
+       ROUND(AVG(Verkaufspreis),2),
+       ROUND(MIN(Verkaufspreis),2)
+FROM
+    artikel
+        INNER JOIN warengruppe wa ON FKWarengruppe = WGNr
+GROUP BY FKWarengruppe
+HAVING AVG(Verkaufspreis) > 21 AND MAX(Verkaufspreis) < 100;
 
 -- 6
 SELECT Artikelname,
@@ -309,19 +322,6 @@ GROUP BY KdNachname
 ORDER BY KdNachname;
 
 -- 13
-
-SELECT
-    li.`LFirma`
-    ,ROUND(SUM(lip.`BestellteAnzahl`* lip.`Einkaufspreis`),2)
-FROM
-    liefbestellung lb
-    INNER JOIN liefbestellposition lip ON lb.`Bestellnr` = lip.`FKBestellung`   
-    INNER JOIN lieferant li ON lb.`FKLieferant` = li.`LNr`
-GROUP BY
-    lb.`Bestellnr`
-    HAVING
-    SUM(lip.`BestellteAnzahl`* lip.`Einkaufspreis`) >= 500
-    AND SUM(lip.`BestellteAnzahl`* lip.`Einkaufspreis`)<=  1000
 
 
 -- 14
