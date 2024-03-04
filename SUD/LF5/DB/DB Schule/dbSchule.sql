@@ -1,5 +1,6 @@
-create database dbschule;
-use dbschule;
+DROP DATABASE IF EXISTS dbSchule;
+CREATE database dbSchule;
+USE dbSchule;
 
 CREATE TABLE Schueler
 (
@@ -13,7 +14,7 @@ CREATE TABLE Schueler
 
 CREATE TABLE Lehrer
 (
-    lehrerKuerzel CHAR(3) NOT NULL,
+    lehrerKuerzel CHAR(4) NOT NULL,
     nachname CHAR(30) NOT NULL,
     telefonNr VARCHAR(30) NOT NULL,
     geburtsdatum DATE,
@@ -25,7 +26,33 @@ CREATE TABLE Bildungsgang
 (
     bildungsgangID INT NOT NULL AUTO_INCREMENT,
     bildungsgangBez VARCHAR(30) NOT NULL,
+    leiterKuerzel CHAR(4) NOT NULL,
+    FOREIGN KEY (leiterKuerzel)
+        REFERENCES Lehrer(lehrerKuerzel),
     PRIMARY KEY (bildungsgangID)
+);
+
+CREATE TABLE Raumfunktion
+(
+    raumfunktionID INT NOT NULL AUTO_INCREMENT,
+    raumFunktion VARCHAR(30),
+    PRIMARY KEY (raumfunktionID)
+);
+
+CREATE TABLE Raum
+(
+    raumID INT NOT NULL AUTO_INCREMENT,
+    raumFunktion INT NOT NULL,
+    FOREIGN KEY (raumFunktion)
+        REFERENCES Raumfunktion(raumfunktionID),
+    PRIMARY KEY (raumID)
+);
+
+CREATE TABLE Fachbereich
+(
+    fachBereichID INT NOT NULL AUTO_INCREMENT,
+    fachBereich VARCHAR(30) NOT NULL,
+    PRIMARY KEY (fachBereichID)
 );
 
 CREATE TABLE Fach
@@ -37,24 +64,10 @@ CREATE TABLE Fach
     PRIMARY KEY (fachID)
 );
 
-CREATE TABLE Raum
-(
-    raumID INT NOT NULL AUTO_INCREMENT,
-    raumFunktion VARCHAR(30),
-    PRIMARY KEY (raumID)
-);
-
-CREATE TABLE Fachbereich
-(
-    fachBereichID INT NOT NULL AUTO_INCREMENT,
-    fachBereich VARCHAR(30) NOT NULL,
-    PRIMARY KEY (fachBereichID)
-);
-
 CREATE TABLE Klasse
 (
     klassenID INT NOT NULL AUTO_INCREMENT,
-    klassenLehrer CHAR(3) NOT NULL,
+    klassenLehrer CHAR(4) NOT NULL,
     bildungsgangID INT NOT NULL,
     FOREIGN KEY (klassenLehrer)
         REFERENCES Lehrer(lehrerKuerzel),
@@ -67,7 +80,7 @@ CREATE TABLE Stundenplan
 (
     stundenplanID INT NOT NULL AUTO_INCREMENT,
     klassenID INT NOT NULL,
-    lehrerID CHAR(3) NOT NULL,
+    lehrerID CHAR(4) NOT NULL,
     fachBereichID INT NOT NULL,
     datum DATE NOT NULL,
     stunde INT NOT NULL,
@@ -83,6 +96,13 @@ CREATE TABLE Stundenplan
     PRIMARY KEY (stundenplanID)
 );
 
+CREATE TABLE Notenart
+(
+    notenartID INT NOT NULL AUTO_INCREMENT,
+    notenartBez VARCHAR(30),
+    PRIMARY KEY (notenartID)
+);
+
 CREATE TABLE Noten
 (
     schuelerID INT NOT NULL,
@@ -92,16 +112,9 @@ CREATE TABLE Noten
     note CHAR(2) NOT NULL,
     FOREIGN KEY (schuelerID)
         REFERENCES Schueler(schuelerID),
-    FOREIGN Fach(fachID),
-    REFERENCES Fach(fachID),
+    FOREIGN KEY (fachID)
+        REFERENCES Fach(fachID),
     FOREIGN KEY (notenartID)
         REFERENCES Notenart(notenartID),
     PRIMARY KEY(fachID, notenartID, zeitpunkt, schuelerID)
-);
-
-CREATE TABLE Notenart
-(
-    notenartID INT NOT NULL AUTO_INCREMENT,
-    notenartBez VARCHAR(30),
-    PRIMARY KEY (notenartID)
 );
