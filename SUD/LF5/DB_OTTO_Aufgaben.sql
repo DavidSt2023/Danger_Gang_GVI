@@ -128,16 +128,17 @@ ORDER BY Verkaufspreis LIMIT 5;
 
 -- 20
 
+
 -- 21
 SELECT
-    `Vorname`,
-    `DurchwahlOffice`,
-    FLOOR(DATEDIFF(CURDATE(), `Geburtsdatum`) / 365)
+    Vorname,
+    DurchwahlOffice,
+    FLOOR(DATEDIFF(CURDATE(), Geburtsdatum) / 365)
 FROM
     personal
 WHERE
-    TIMESTAMPDIFF(YEAR, `Geburtsdatum`, CURDATE()) BETWEEN 25
-    AND 35
+    TIMESTAMPDIFF(YEAR, Geburtsdatum, CURDATE()) BETWEEN 25
+    AND 35;
 
 -- 22
 SELECT Artikelname,Angebotsdatum, DATEDIFF('2021-10-01',Angebotsdatum) as Tage_Seit_Bestellung
@@ -147,6 +148,13 @@ FROM
 WHERE DATEDIFF('2021-10-01',Angebotsdatum) > 15;
 
 -- 23
+SELECT LFirma, Artikelname, ROUND((Angebotspreis * (1-Lieferantenrabatt)),2) as PreisMitRabatt
+FROM
+    liefangebot la
+        INNER JOIN artikel ar ON la.FKArtikel = ar.ArtikelNr
+        INNER JOIN lieferant li ON la.FKLieferant = li.LNr
+WHERE Artikelname like 'C%' or Artikelname like 'I%'
+ORDER BY Artikelname, ROUND((Angebotspreis * (1-Lieferantenrabatt)),2);
 
 -- 24
 SELECT Artikelname, BestellteAnzahl, Bestelldatum
@@ -183,3 +191,91 @@ FROM
         INNER JOIN liefbestellung lb ON lbp.FKBestellung = lb.Bestellnr
         INNER JOIN lieferant li ON lb.FKLieferant = li.LNr
 WHERE (Verkaufspreis - Einkaufspreis) < 0 and YEAR(Bestelldatum) in (2020, 2021);
+
+
+
+-- Aufgabe 3
+
+-- 6
+SELECT Artikelname,
+       SUM(Anzahl) AS Gesamt
+FROM
+    artikel ar
+        INNER JOIN kdauftragsposition kap ON ar.ArtikelNr = kap.FKArtikel
+GROUP BY Artikelname
+HAVING
+    SUM(Anzahl) > 700;
+
+-- 7
+SELECT Artikelname,
+       COUNT(Artikelname) AS Anzahl_Angebote,
+       ROUND(MIN(Angebotspreis),2) AS MIN_Preis,
+       ROUND(AVG(Angebotspreis),2) AS AVG_Preis,
+       ROUND(MAX(Angebotspreis),2) AS MAX_Preis
+FROM
+    liefangebot la
+        INNER JOIN artikel ar ON la.FKArtikel = ar.ArtikelNr
+GROUP BY Artikelname;
+
+-- 8
+SELECT LFirma, Artikelname, BestellteAnzahl
+FROM
+    lieferant li
+        INNER JOIN liefbestellung lb ON li.LNr = lb.FKLieferant
+        INNER JOIN liefbestellposition lbp ON lb.Bestellnr = lbp.FKBestellung
+        INNER JOIN artikel ar ON lbp.FKArtikel = ar.ArtikelNr
+WHERE
+    BestellteAnzahl < 60
+GROUP BY
+    LFirma;
+
+-- 9
+SELECT Vorname, Nachname, COUNT(PersonalNr) AS Anzahl_Auftrage
+FROM
+    personal p
+        INNER JOIN kdauftrag k on p.PersonalNr = k.FKBearbeiter
+GROUP BY PersonalNr;
+
+-- 10
+SELECT GruppenName,
+       ROUND(AVG(Lagerbestand),1) AS AVG_Lagerbestand
+FROM
+    artikel ar
+        INNER JOIN warengruppe wg ON ar.FKWarengruppe = wg.WGNr
+GROUP BY FKWarengruppe;
+
+-- 11
+SELECT GruppenName,
+       ROUND(SUM((Verkaufspreis * Lagerbestand)),2) AS Netto_Wert
+FROM
+    artikel ar
+        INNER JOIN warengruppe wg ON ar.FKWarengruppe = wg.WGNr
+GROUP BY FKWarengruppe
+HAVING ROUND(SUM((Verkaufspreis * Lagerbestand)),2) > 100000;
+
+-- 12
+SELECT KdVorname,
+       KdNachname,
+       MAX(DATEDIFF(Versanddatum, Auftragsdatum)) AS MAX_Zeit,
+       ROUND(AVG(DATEDIFF(Versanddatum, Auftragsdatum)),2) AS AVG_Zeit
+FROM
+    kunde k
+        INNER JOIN kdauftrag ka ON k.KdNr = ka.FKKunde
+GROUP BY KdNachname
+ORDER BY KdNachname;
+
+-- 13
+
+
+-- 14
+SELECT KdNachname,
+       AuftragsNr,
+       ROUND(SUM((Verkaufspreis * Anzahl * (1 - Rabatt) * 1.19)),2) AS Warenumsatz,
+       ROUND((SUM((Verkaufspreis * Anzahl * (1 - Rabatt) * 1.19)) + Frachtkosten),2) AS Rechnungsbetrag
+FROM
+    kunde k
+        INNER JOIN kdauftrag ka ON k.KdNr = ka.FKKunde
+        INNER JOIN kdauftragsposition kap ON ka.AuftragsNr = kap.FKAuftrag
+        INNER JOIN artikel ar ON kap.FKArtikel = ar.ArtikelNr
+WHERE MONTH(Auftragsdatum) < 4 and YEAR(Auftragsdatum) = 2019
+GROUP BY AuftragsNr;
