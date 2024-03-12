@@ -10,19 +10,19 @@ Anforderung:
     - Global Routing Präfix 2.4711.ACDC
 
 Adressbereiche:
-IPv4
+IPv4 (FastEthernet)
 ![image](./Subnetz.png "Subnetz")
-IPv4 Verbindungsnetze
+IPv4 Verbindungsnetze (Gigabit)
 ![image](./Subnetz2.png "Subnetz")
 
 IPv6
-Aachen: 2.4711.ACDC:0:1:/60
+Aachen: 2.4711.ACDC:0:0:/60
 Dresden: 2.4711.ACDC:0:1:/60
-Hamburg: 2.4711.ACDC:0:1:/60
+Hamburg: 2.4711.ACDC:0:2:/60
 
-AC-DD: 2.4711.ACDC:
-DD-HH: 2.4711.ACDC:
-AC-HH: 2.4711.ACDC:
+AC-DD: 2.4711.ACDC:0:
+DD-HH: 2.4711.ACDC:0:
+AC-HH: 2.4711.ACDC:0:
 
 
 
