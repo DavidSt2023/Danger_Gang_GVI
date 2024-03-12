@@ -71,6 +71,8 @@ GROUP BY LNr
 HAVING Bestellbetrag < 5000;
 
 --7
+USE dbotto
+
 SELECT
     artikelname,
     IFNULL(eingang, 0) AS eingang,
@@ -104,7 +106,7 @@ HAVING
         IFNULL(
             (
                 SELECT
-                    SUM(qryEingang.bestellteAnzahl)
+                    SUM(bestellteAnzahl)
                 FROM
                     liefbestellposition
                 WHERE
@@ -115,7 +117,7 @@ HAVING
         ) - IFNULL(
             (
                 SELECT
-                    SUM(qryAusgang.anzahl)
+                    SUM(anzahl)
                 FROM
                     kdauftragsposition
                 WHERE
