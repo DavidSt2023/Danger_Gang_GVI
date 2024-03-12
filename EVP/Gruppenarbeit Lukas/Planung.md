@@ -12,8 +12,10 @@ Anforderung:
 Adressbereiche:
 IPv4 (FastEthernet)
 ![image](./Subnetz.png "Subnetz")
-IPv4 Verbindungsnetze (Gigabit)
+IPv4 Verbindungsnetze ohne zusätzlichen Router (Gigabit)
 ![image](./Subnetz2.png "Subnetz")
+IPv4 Verbindungsnetze mit einem zusätzlichen Router (Gigabit)
+![image](./Subnetz3.png "Subnetz")
 
 IPv6
 Aachen: 2.4711.ACDC:0:0:/60
@@ -24,6 +26,9 @@ AC-DD: 2.4711.ACDC:0:
 DD-HH: 2.4711.ACDC:0:
 AC-HH: 2.4711.ACDC:0:
 
+AC-Router: 2.4711.ACDC:0:
+DD-Router: 2.4711.ACDC:0:
+HH-Router: 2.4711.ACDC:0:
 
 
 
