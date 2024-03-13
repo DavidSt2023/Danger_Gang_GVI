@@ -50,28 +50,45 @@ FROM personal
 GROUP BY PersonalNr;
 
 --4
-SELECT ArtikelName, ROUND( AVG(BestellteAnzahl * Einkaufspreis), 2) AS BestellSchnitt, ROUND( AVG( Anzahl * Verkaufspreis), 2) AS Auftragsschnitt
-FROM artikel 
-		LEFT JOIN liefbestellposition ON ArtikelNr = liefbestellposition.FKArtikel
-		LEFT JOIN kdauftragsposition ON ArtikelNr = kdauftragsposition.FKArtikel
-GROUP BY ArtikelNr;
-
+SELECT
+    ArtikelName,
+    ROUND(AVG(BestellteAnzahl * Einkaufspreis), 2) AS BestellSchnitt,
+    ROUND(AVG(Anzahl * Verkaufspreis), 2) AS Auftragsschnitt
+FROM
+    artikel
+    LEFT JOIN liefbestellposition ON ArtikelNr = liefbestellposition.FKArtikel
+    LEFT JOIN kdauftragsposition ON ArtikelNr = kdauftragsposition.FKArtikel
+GROUP BY
+    ArtikelNr;
 --5
-SELECT artikelname, COUNT(FKArtikel) AS Häufigkeit,IFNULL(SUM(Anzahl), 0) AS Menge
-FROM artikel LEFT JOIN kdauftragsposition ON artikelNr = FKArtikel
-GROUP BY ArtikelNr
-HAVING Häufigkeit <= 5;
+SELECT
+    artikelname,
+    COUNT(FKArtikel) AS Häufigkeit,
+    IFNULL(SUM(Anzahl), 0) AS Menge
+FROM
+    artikel
+    LEFT JOIN kdauftragsposition ON artikelNr = FKArtikel
+GROUP BY
+    ArtikelNr
+HAVING
+    Häufigkeit <= 5;
 
 --6
-SELECT lfirma, 
-	IFNULL(SUM(Einkaufspreis*BestellteAnzahl) , 0) AS Bestellbetrag
-FROM lieferant  JOIN liefbestellung ON lnr = fklieferant LEFT JOIN liefbestellposition ON Bestellnr = fkBestellung
-WHERE lLand != 'Deutschland'
-GROUP BY LNr
-HAVING Bestellbetrag < 5000;
+SELECT
+    lfirma,
+    IFNULL(SUM(Einkaufspreis * BestellteAnzahl), 0) AS Bestellbetrag
+FROM
+    lieferant
+    JOIN liefbestellung ON lnr = fklieferant
+    LEFT JOIN liefbestellposition ON Bestellnr = fkBestellung
+WHERE
+    lLand != 'Deutschland'
+GROUP BY
+    LNr
+HAVING
+    Bestellbetrag < 5000;
 
 --7
-USE dbotto
 
 SELECT
     artikelname,
@@ -91,7 +108,7 @@ FROM
             LieferungErhalten = 1
         GROUP BY
             FKArtikel
-    ) AS qryEingang ON artikelNr = qryEingang.FKArtikel
+    ) AS subein ON artikelNr = subein.FKArtikel
     LEFT JOIN (
         SELECT
             FKArtikel,
@@ -100,7 +117,7 @@ FROM
             kdauftragsposition
         GROUP BY
             FKArtikel
-    ) AS qryAusgang ON artikelNr = qryAusgang.FKArtikel
+    ) AS subaus ON artikelNr = subaus.FKArtikel
 HAVING
     lagerbestand <> (
         IFNULL(
