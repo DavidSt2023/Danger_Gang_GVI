@@ -10,7 +10,5 @@
 
 ### Rückwärtskalkulation
 
-> Bei der Rückwärtskalkulation haben wir den geben **ListenVerkaufs** preis und von da aus ermitteln wir den **Listeneinkaufspreis** und alles was dazwischen liegt. Bei eine Listenverkaufspreis incl. Mwst haben wir ein anfang wert von 119% da mwt 19% sind und der **Listenverkaufspreis** 100%. Um von dem Listenverkaufspreis incl MWST auf Listenverkaufpreis zukommen ist die Rechnung zb. $$ (156/119)*19$$ 156 ist jetzt der Listenverkaufpreis incl MWST / 119 gibt uns 1% von 156 da wir von 119 % anfangen wenn wir MWST haben &  * 19 gibt uns dann den die 19% vom LVP incl MWST Beim Barverkaufpreis ist zubeachten das der **Barverkaufpreis Immer 100% + Gewinn in % ist** zb.  Gewinn 12% Barverkaufpreis 156€
->$$ 156/112 * 12$$ Bei **Skonto** muss man beachten das wir ja das Skonto von dem Bareinkaufpreis abziehen das wir bei zb 3% sknoto von 100% des Bareinkaufpreis abziehen $$ 156 * 0.03 / (1 - 0.03)$$
-
-![](<Screenshot 2024-03-18 111516.png>)
+> Bei der Rückwärtskalkulation haben wir den geben **ListenVerkaufs** preis und von da aus ermitteln wir den **Listeneinkaufspreis** und alles was dazwischen liegt. Bei eine Listenverkaufspreis incl. Mwst haben wir ein anfang wert von 119% da mwt 19% sind und der **Listenverkaufspreis** 100%. Um von dem Listenverkaufspreis incl MWST auf Listenverkaufpreis zukommen ist die Rechnung zb. $$ (156/119)*19$$ 156 ist jetzt der Listenverkaufpreis incl MWST / 119 gibt uns 1% von 156 da wir von 119 % anfangen wenn wir MWST haben &  * 19 gibt uns dann den die 19% vom LVP incl MWST Beim Barverkaufpreis ist zubeachten das der **Barverkaufpreis Immer 100% + Gewinn in % ist** zb.  Gewinn 12% Barverkaufpreis 156€ $$ 156/112 * 12$$ Bei **Skonto** muss man beachten das wir ja das Skonto von dem Bareinkaufpreis abziehen das wir bei zb 3% sknoto von 100% des Bareinkaufpreis abziehen $$ 156 * 0.03 / (1 - 0.03)$$
+![Rückwärstkalkulation](<Screenshot 2024-03-18 111516.png>)
