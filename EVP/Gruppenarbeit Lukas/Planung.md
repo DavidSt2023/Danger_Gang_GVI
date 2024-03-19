@@ -22,15 +22,3 @@ IPv6 (FastEthernet)
 IPv6 Verbindungsnetze ohne zusätzlichen Router (Gigabit)
 ![image](./Subnetz4.png "Subnetz")
 ![image](./Subnetz5.png "Subnetz")
-
-
-
-
-
-
-
-
-
-
-
-
