@@ -1,5 +1,4 @@
  # Danger_Gang
-<h1>ITF231 Gruppen Martial</h1>
 
 Klausur Termine:
 **GVI**: 07.05.2024
