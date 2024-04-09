@@ -1,21 +1,37 @@
-
+-- Active: 1707129775824@@localhost@3306@dbotto
 --1
 SELECT
-    li.`LFirma`
-    ,la.Bestellungen Bestellungen
-    ,lb.Bestellungen Angebote
+    li.`LFirma`,
+    la.Bestellungen Bestellungen,
+    lb.Bestellungen Angebote
 FROM
     lieferant li
-    INNER JOIN (SELECT COUNT(`FKLieferant`) Bestellungen,`FKLieferant` FROM liefangebot GROUP BY `FKLieferant` ) lb ON li.`LNr` = lb.`FKLieferant`
-    INNER JOIN (SELECT COUNT(`Bestellnr`) Bestellungen,`FKLieferant` FROM liefbestellung GROUP BY `FKLieferant`) la ON li.`LNr` = la.`FKLieferant`
-    GROUP BY li.`LNr`
-    ORDER BY li.`LFirma`
-
---2
+    INNER JOIN (
+        SELECT
+            COUNT(`FKLieferant`) Bestellungen,
+            `FKLieferant`
+        FROM
+            liefangebot
+        GROUP BY
+            `FKLieferant`
+    ) lb ON li.`LNr` = lb.`FKLieferant`
+    INNER JOIN (
+        SELECT
+            COUNT(`Bestellnr`) Bestellungen,
+            `FKLieferant`
+        FROM
+            liefbestellung
+        GROUP BY
+            `FKLieferant`
+    ) la ON li.`LNr` = la.`FKLieferant`
+GROUP BY
+    li.`LNr`
+ORDER BY
+    li.`LFirma` --2
 SELECT
-    `Artikelname`
-    ,la.`FKLieferant`
-    ,MINVerkauf
+    `Artikelname`,
+    la.`FKLieferant`,
+    MINVerkauf
 FROM
     artikel ar
     INNER JOIN (
@@ -30,10 +46,7 @@ FROM
     ) la ON ar.`ArtikelNr` = la.`FKArtikel`
     INNER JOIN lieferant li ON la.
 GROUP BY
-    ar.`ArtikelNr`
-
---3
-
+    ar.`ArtikelNr` --3
 SELECT
     lfirma,
     artikelname,
@@ -56,20 +69,39 @@ FROM
     AND qryMinPreise.FKArtikel = liefangebot.FKArtikel;
 
 --4
-SELECT GruppenName, ROUND( AVG( Mengenschnitt ),1)  AS 'Durchschnitt Auftragsmenge'
-FROM warengruppe INNER JOIN 
-(
-SELECT FKwarengruppe, ArtikelNr, AVG(Anzahl) AS Mengenschnitt FROM artikel INNER JOIN kdauftragsposition ON ArtikelNr = FKartikel
-GROUP BY ArtikelNr
-) AS schnitt
- ON WGNr = FKwarengruppe
-GROUP BY WGNr;
+SELECT
+    GruppenName,
+    ROUND(AVG(Mengenschnitt), 1) AS 'Durchschnitt Auftragsmenge'
+FROM
+    warengruppe
+    INNER JOIN (
+        SELECT
+            FKwarengruppe,
+            ArtikelNr,
+            AVG(Anzahl) AS Mengenschnitt
+        FROM
+            artikel
+            INNER JOIN kdauftragsposition ON ArtikelNr = FKartikel
+        GROUP BY
+            ArtikelNr
+    ) AS schnitt ON WGNr = FKwarengruppe
+GROUP BY
+    WGNr;
 
 --5
-SELECT KdNr, KdNachname FROM kunde WHERE KdNr NOT IN 
-(
-SELECT FKkunde FROM kdauftrag a INNER JOIN abweichenderversand av		ON  a.auftragsNr = av.auftragsNr
-);
+SELECT
+    KdNr,
+    KdNachname
+FROM
+    kunde
+WHERE
+    KdNr NOT IN (
+        SELECT
+            FKkunde
+        FROM
+            kdauftrag a
+            INNER JOIN abweichenderversand av ON a.auftragsNr = av.auftragsNr
+    );
 
 --6
 SELECT
@@ -119,34 +151,47 @@ WHERE
             INNER JOIN kdauftragsposition ON FKAuftrag = auftragsnr
         WHERE
             kdland = 'Deutschland'
-    )
+    ) 
 --9
 
-SELECT kdnr, kdvorname, kdnachname, ROUND( AVG( auftragswert ) ,2) AS durchschnitt
-FROM kunde INNER JOIN kdauftrag ON FKkunde = KdNr INNER JOIN
-( 
- SELECT FKAuftrag, SUM( anzahl * verkaufspreis * (1 - rabatt) * 1.19) AS auftragswert
- FROM artikel INNER JOIN kdauftragsposition  ON artikelNr = FKartikel
- GROUP BY FKAuftrag
-) AS qryAuftragswert
-ON qryAuftragswert.FKauftrag = AuftragsNr
-GROUP BY kdnr
-ORDER BY durchschnitt DESC
-LIMIT 5;
+SELECT
+    kdnr,
+    kdvorname,
+    kdnachname,
+    ROUND(AVG(auftragswert), 2) AS durchschnitt
+FROM
+    kunde
+    INNER JOIN kdauftrag ON FKkunde = KdNr
+    INNER JOIN (
+        SELECT
+            FKAuftrag,
+            SUM(anzahl * verkaufspreis * (1 - rabatt) * 1.19) AS auftragswert
+        FROM
+            artikel
+            INNER JOIN kdauftragsposition ON artikelNr = FKartikel
+        GROUP BY
+            FKAuftrag
+    ) AS qryAuftragswert ON qryAuftragswert.FKauftrag = AuftragsNr
+GROUP BY
+    kdnr
+ORDER BY
+    durchschnitt DESC
+LIMIT
+    5;
 
 --10
 SELECT
-    DISTINCT Kunde.kdland
+    DISTINCT kunde.kdland
 FROM
-    Kunde
+    kunde
 WHERE
     kdland NOT IN (
         SELECT
-            DISTINCT Kunde.kdland
+            DISTINCT kunde.kdland
         FROM
             versandfirma
-            INNER JOIN kdAuftrag ON VNr = kdAuftrag.FKVersandfirma
-            INNER JOIN Kunde ON KdNr = FKkunde
+            INNER JOIN kdauftrag ON VNr = kdauftrag.FKVersandfirma
+            INNER JOIN kunde ON KdNr = FKkunde
         WHERE
             vfirma = 'Speedy Express'
     )
