@@ -45,3 +45,19 @@ GROUP BY
 HAVING
     COUNT(`FKArtikel`) > 1
     )
+--4 
+SELECT
+    `FKArtikel`
+    ,`FKAuftrag`
+    ,COUNT(`FKArtikel`)
+    ,YEAR(kd.Auftragsdatum)
+FROM
+    kdauftragsposition kp
+    LEFT JOIN kdauftrag kd ON `AuftragsNr` = `FKAuftrag`
+GROUP BY
+    YEAR(kd.Auftragsdatum),
+    `FKArtikel`
+HAVING
+    COUNT(`FKArtikel`) > 10
+order by
+    `FKAuftrag`
