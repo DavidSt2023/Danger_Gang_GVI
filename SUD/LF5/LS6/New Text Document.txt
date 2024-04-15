@@ -1,4 +1,6 @@
-USE dbotto --(1)	Löschen Sie alle Aufträge, die keine Auftragspositionen haben, da sie keinen Sinn ergeben.
+USE dbotto 
+
+--(1)	Löschen Sie alle Aufträge, die keine Auftragspositionen haben, da sie keinen Sinn ergeben.
 DELETE FROM
     kdauftrag
 WHERE
@@ -10,7 +12,10 @@ WHERE
             LEFT JOIN kdauftragsposition ON `FKAuftrag` = `AuftragsNr`
         WHERE
             `FKAuftrag` IS NULL
-    ) --(2)	Heben Sie die Preise von gut verkauften Artikeln (mehr als 20 Kundenaufträge) um 10% an. 
+    ) 
+
+--(2)	Heben Sie die Preise von gut verkauften Artikeln (mehr als 20 Kundenaufträge) um 10% an. 
+
 UPDATE
     artikel
 SET
@@ -26,38 +31,58 @@ WHERE
         HAVING
             COUNT(`FKArtikel`) > 20
     )
-    /*(3)
+    
+/*(3)
      Kennzeichnen Sie schlecht zu verkaufende Artikel als Auslaufartikel und senken Sie deren Preise um 60%. 
      Als Kriterium soll dienen, ob sie im Jahr 2021 höchstens ein Mal verkauft wurden. */
 
-
-UPDATE artikel SET `Auslaufartikel` = 1 ,  `Verkaufspreis` = (`Verkaufspreis` - `Verkaufspreis` * 0.4) WHERE NOT `ArtikelNr` IN (
-SELECT
-    `ArtikelNr`
-FROM
-    kdauftragsposition kap
-    LEFT JOIN kdauftrag kd ON `FKAuftrag` = `AuftragsNr`
-    LEFT JOIN artikel ON `FKArtikel` = `ArtikelNr`
+UPDATE
+    artikel
+SET
+    `Auslaufartikel` = 1,
+    `Verkaufspreis` = (`Verkaufspreis` - `Verkaufspreis` * 0.4)
 WHERE
-    Year(`Auftragsdatum`) = 2021
-GROUP BY
-    `FKArtikel`
-HAVING
-    COUNT(`FKArtikel`) > 1
+    NOT `ArtikelNr` IN (
+        SELECT
+            `ArtikelNr`
+        FROM
+            kdauftragsposition kap
+            LEFT JOIN kdauftrag kd ON `FKAuftrag` = `AuftragsNr`
+            LEFT JOIN artikel ON `FKArtikel` = `ArtikelNr`
+        WHERE
+            Year(`Auftragsdatum`) = 2021
+        GROUP BY
+            `FKArtikel`
+        HAVING
+            COUNT(`FKArtikel`) > 1
     )
---4 
-SELECT
-    `FKArtikel`
-    ,`FKAuftrag`
-    ,COUNT(`FKArtikel`)
-    ,YEAR(kd.Auftragsdatum)
-FROM
-    kdauftragsposition kp
-    LEFT JOIN kdauftrag kd ON `AuftragsNr` = `FKAuftrag`
-GROUP BY
-    YEAR(kd.Auftragsdatum),
-    `FKArtikel`
-HAVING
-    COUNT(`FKArtikel`) > 10
-order by
-    `FKAuftrag`
+
+/*(4)
+Verdoppeln Sie den Mindestbestand der Artikel,
+die im Durchschnitt mehr als 10 Mal pro Jahr an Kunden verkauft wurden.
+*/
+
+UPDATE artikel SET `Mindestbestand` = `Mindestbestand` * 2
+WHERE
+    `ArtikelNr` IN (
+        SELECT
+            `FKArtikel`
+        FROM
+            (
+                SELECT
+                    `FKArtikel`,
+                    COUNT(`FKArtikel`) AS Amount
+                FROM
+                    kdauftragsposition ka
+                    INNER JOIN kdauftrag kp ON `FKAuftrag` = `AuftragsNr`
+                GROUP BY
+                    `FKArtikel`,
+                    Year(`Auftragsdatum`)
+            ) sub
+        GROUP BY
+            `FKArtikel`
+        HAVING
+            AVG(sub.Amount) > 10 
+    ) AND `Mindestbestand` <> 0 
+    
+
