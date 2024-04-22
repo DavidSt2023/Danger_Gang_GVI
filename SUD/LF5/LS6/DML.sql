@@ -21,13 +21,14 @@ WHERE
 );
 
 -- 3
-UPDATE artikel SET Auslaufartikel = 1 ,  Verkaufspreis = (Verkaufspreis - Verkaufspreis * 0.4) WHERE NOT ArtikelNr IN (
+UPDATE artikel
+SET Auslaufartikel = 1 ,  Verkaufspreis = Verkaufspreis * 0.4
+WHERE ArtikelNr NOT IN (
     SELECT
-        ArtikelNr
+        FKArtikel
     FROM
         kdauftragsposition kap
             LEFT JOIN kdauftrag kd ON FKAuftrag = AuftragsNr
-            LEFT JOIN artikel ON FKArtikel = ArtikelNr
     WHERE
         Year(Auftragsdatum) = 2021
     GROUP BY
@@ -37,15 +38,17 @@ UPDATE artikel SET Auslaufartikel = 1 ,  Verkaufspreis = (Verkaufspreis - Verkau
 );
 
 -- 4
-
-SELECT AVG(sub.Amount) FROM
-(
-    SELECT FKArtikel, COUNT(FKArtikel) as Amount
-       FROM kdauftragsposition ka
-       INNER JOIN dbotto.kdauftrag k on ka.FKAuftrag = k.AuftragsNr
-       GROUP BY FKArtikel, Year(Auftragsdatum)
-) sub GROUP BY FKArtikel
-HAVING AVG(sub.Amount) > 10;
+UPDATE artikel
+SET Mindestbestand = Mindestbestand * 2
+WHERE ArtikelNr IN (
+    SELECT FkArtikel
+    FROM (SELECT FKArtikel, COUNT(FKArtikel) as Amount
+             FROM kdauftragsposition ka
+                      INNER JOIN dbotto.kdauftrag k on ka.FKAuftrag = k.AuftragsNr
+             GROUP BY FKArtikel, Year(Auftragsdatum)
+         ) sub
+    GROUP BY FkArtikel
+    HAVING AVG(sub.Amount) > 10);
 
 -- 5
 
