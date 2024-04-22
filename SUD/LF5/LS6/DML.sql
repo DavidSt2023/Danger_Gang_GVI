@@ -103,5 +103,42 @@ DELETE FROM kdauftragsposition WHERE FKAuftrag IN
 );
 
 DELETE FROM artikel WHERE Auslaufartikel = 1 and Lagerbestand = 0;
--- TODO LIEFBESTELLUNG
+
 -- 6
+DELETE FROM
+    kdauftrag
+WHERE
+    AuftragsNr IN (
+        SELECT
+            kdauftrag.AuftragsNr
+        FROM
+            kdauftrag
+        WHERE
+            YEAR(Auftragsdatum) = 2019
+        GROUP BY
+            AuftragsNr
+    );
+
+DELETE FROM
+    kdauftragsposition
+WHERE
+    FKAuftrag IN (
+        SELECT
+            AuftragsNr
+        FROM
+            kdauftrag
+        WHERE
+            YEAR(Auftragsdatum) = 2019
+    );
+
+DELETE FROM
+    abweichenderversand
+WHERE
+    AuftragsNr IN (
+        SELECT
+            AuftragsNr
+        FROM
+            kdauftrag
+        WHERE
+            YEAR(Auftragsdatum) = 2019
+    );
