@@ -85,6 +85,62 @@ WHERE
             AVG(sub.Amount) > 10 
     ) AND `Mindestbestand` <> 0 
     
+CREATE table kdAuftragSAV
+SELECT * FROM abweichenderversand WHERE AuftragsNr IN
+(SELECT FKAuftrag
+FROM kdauftragsposition kap
+         INNER JOIN dbotto.artikel a on kap.FKArtikel = a.ArtikelNr
+WHERE Lagerbestand = 0
+  and Auslaufartikel = 1
+GROUP BY FKAuftrag
+);
+
+CREATE table kdAuftragspositionSAV
+SELECT * FROM kdauftragsposition kap
+                 INNER JOIN dbotto.artikel a on kap.FKArtikel = a.ArtikelNr
+        WHERE Lagerbestand = 0
+          and Auslaufartikel = 1
+GROUP BY FKAuftrag;
+
+
+--5
+CREATE table abweichenderVersandSAV
+SELECT *
+       FROM kdauftragsposition kap
+                INNER JOIN dbotto.artikel a on kap.FKArtikel = a.ArtikelNr
+       WHERE Lagerbestand = 0
+         and Auslaufartikel = 1
+       GROUP BY FKAuftrag;
+
+
+DELETE FROM abweichenderversand WHERE AuftragsNr IN
+(SELECT FKAuftrag
+FROM kdauftragsposition kap
+    INNER JOIN dbotto.artikel a on kap.FKArtikel = a.ArtikelNr
+WHERE Lagerbestand = 0
+  and Auslaufartikel = 1
+GROUP BY FKAuftrag
+);
+
+DELETE FROM kdauftrag WHERE AuftragsNr IN
+(SELECT FKAuftrag
+ FROM kdauftragsposition kap
+          INNER JOIN dbotto.artikel a on kap.FKArtikel = a.ArtikelNr
+ WHERE Lagerbestand = 0
+   and Auslaufartikel = 1
+ GROUP BY FKAuftrag
+);
+
+DELETE FROM kdauftragsposition WHERE FKAuftrag IN
+(SELECT FKAuftrag
+  FROM kdauftragsposition kap
+           INNER JOIN dbotto.artikel a on kap.FKArtikel = a.ArtikelNr
+  WHERE Lagerbestand = 0
+    and Auslaufartikel = 1
+  GROUP BY FKAuftrag
+);
+
+DELETE FROM artikel WHERE Auslaufartikel = 1 and Lagerbestand = 0;
 
 /* 
 (6) 
