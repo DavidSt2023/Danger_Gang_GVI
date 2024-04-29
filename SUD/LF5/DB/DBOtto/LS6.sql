@@ -1,4 +1,5 @@
 USE dbotto --(1)	Löschen Sie alle Aufträge, die keine Auftragspositionen haben, da sie keinen Sinn ergeben.
+
 DELETE FROM
     kdauftrag
 WHERE
@@ -10,7 +11,9 @@ WHERE
             LEFT JOIN kdauftragsposition ON `FKAuftrag` = `AuftragsNr`
         WHERE
             `FKAuftrag` IS NULL
-    ) --(2)	Heben Sie die Preise von gut verkauften Artikeln (mehr als 20 Kundenaufträge) um 10% an. 
+    )
+ --(2)	Heben Sie die Preise von gut verkauften Artikeln (mehr als 20 Kundenaufträge) um 10% an. 
+ 
 UPDATE
     artikel
 SET
