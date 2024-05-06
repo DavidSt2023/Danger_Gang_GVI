@@ -17,4 +17,4 @@ Test Termine:
 PCloud Link with important stuff: https://e.pcloud.link/publink/show?code=kZEJ1mZQbwWfIyyUU7Yw0UIxNibKjIfWzHy#folder=5217640559&tpl=publicfoldergrid
 
 
-
+https://account.jetbrains.com/licenses
