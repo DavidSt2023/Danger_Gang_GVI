@@ -5,7 +5,7 @@
 3.       Angebotseinholung       6.       Warenannahme
 7.       Rechnungsbegleichung
 #### Beispiel einer Angebot anfrage
- [PDF...](./assets/PDF/LS2_Qualitativer%20Angebotsvergleich_AB3.pdf)
+ [PDF...](./assets/PDF/Angebotsanfrage.pdf)
 ######  Kriterien, die die TechVertrieb GmbH im Rahmen eines nachhaltigen Beschaffungsprozesses berücksichtigen sollte.
 
 o   Auswahl umweltverträglicher und abfallvermeidender Materialien
