@@ -1,0 +1,107 @@
+#### Ipv4
+
+![](./assets/Screenshot%202024-05-12%20190437.png)
+
+#### Mögliche host errechnen 
+
+Mögliche bits einer Ipv4 Adresse sind **32**  z. B mit einer Netzwerkmaske von 24 bits rechnen wir die host aus mit dieser Formel 
+```
+32-24 = 8
+2^8 = 256-2 = 254
+```
+Wir ziehen 2 hosts ab für die Netzwerk  Adresse und eine mal für die Broadcast Adresse
+
+### Anwenden von Subnetzmaske
+
+Um die Netzt Adresse zu errechnen Können wir einfach das UND system benutzen in dem wir die Subnetzmaske in binar und  Host Adresse in Binäre vergleichen wenn beide stellen 1 sind dann nehmen übernehmen wir die 1
+
+![](./assets/Screenshot%202024-05-12%20195038.png)
+
+#### Adresse bereiche 
+
+- Klasse A: 
+	**0.0.0.0/8 bis 127.255.255.255/8**
+- Klasse B:
+	**128.0.0.0/16 bis 191.255.255.255/16**
+- Klasse C:
+	**192.0.0.0/24 bis 223.255.255.255/24**
+ - **Klasse D (224.0.0.0 bis 239.255.255.255)**
+	 Multicast-Gruppen-ID
+- **Klasse E (240.0.0.0 bis 255.255.255.255)**
+	Reserviert
+	
+Die privaten Adressblöcke sind die nicht ins internet geroutet werden:
+- **10.0.0.0/8** bzw. **10.0.0.0** bis **10.255.255.255**
+
+-  **172.16.0.0/12** bzw. **172.16.0.0 bis 172.31.255.255**
+
+-  **192.168.0.0/16** bzw. **192.168.0.0 bis 192.168.255.255**
+
+Loopback-Adressen:
+- **127.0.0.0/8** bzw. **127.0.0.1 bis 127.255.255.254**
+Link-Local-Adressen : 
+- **169.254.0.0/16** bzw. **169.254.0.1 bis 169.254.255.254**
+TEST-NET-Adressen :
+-  **192.0.2.0/24** bzw. **192.0.2.0 bis 192.0.2.255**
+
+### Ipv6
+
+eine Hexadecimal ziffer besteht aus einem 4er Oktett Binar zahlen 
+![](./assets/Screenshot%202024-05-12%20201846.png)
+
+Adresse bereiche:
+- Loopback-Adresse: **0000:: - 00FF::** 
+	Loopback-Adresse, beliebige Adresse, nicht näher spezifizierte
+	Adresse oder IPv4-kompatibel
+
+- Global Unicast : **2000 - 3FFF**
+	eine routing fähige Adresse in einem
+	Bereich von Adressen, der derzeit von der Internet Assigned
+	Numbers Authority [IANA] vergeben wird
+
+- Link Local : **FE80 - FEBF** 
+	eine Unicast-Adresse, die den Host-
+	Computer im lokalen Netzwerk identifiziert
+
+- Unique-Local-Adresse **FC00 - FCFF**
+	eine Unicast-Adresse, die einem Host
+	zugeordnet werden kann, um ihn als Teil eines bestimmten
+	Subnetzes im lokalen Netzwerk zu kennzeichnen
+
+- Multicast: **FF00 - FFFF**
+
+Netwerkprotokolle
+
+![](./assets/Screenshot%202024-05-13%20154333.png)
+Deutsch "Layer 7-1":
+- Alle
+- Dummen 
+- Schüler
+- Trinken
+- Vodka
+- Schnaps
+- Bier
+
+Englisch "Layer 1-7":
+- Please
+- Do
+- Not
+- Throw
+- Salami
+- Pizza
+- Away
+
+
+Statisches Routing ist eine Manuel routen Eingabe wo wir die route bestimmen
+
+Wir geben Network Destination (das Zielnetzwerk) Schnittstelle (Netzt zwischen den zwei routen) und Metrik
+
+DHCP :
+**DORA**
+- Discover 
+- Offer
+- Request
+- Acknowledge
+
+DNS (Domain Name System):
+Converter Name z. B www.google.com in eine IP Adresse
