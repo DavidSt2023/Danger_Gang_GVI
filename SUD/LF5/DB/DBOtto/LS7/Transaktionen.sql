@@ -22,8 +22,8 @@ COMMIT;
 
 START TRANSACTION;
 
-INSERT INTO kdauftragsposition (FKAuftrag, FKArtikel, Anzahl)
-VALUES (1083, 14, 5);
+INSERT INTO liefbestellposition (FKBestellung, FKArtikel, BestellteAnzahl, LieferungErhalten, Einkaufspreis)
+VALUES (1083, 14, 5, 1, 1002);
 
 UPDATE artikel
 SET Lagerbestand = Lagerbestand + 5
