@@ -4,15 +4,20 @@ IDENTIFIED BY 'dev';
 CREATE USER IF NOT EXISTS 'maintainer'@'localhost'
     IDENTIFIED BY 'maintainer';
 GRANT CREATE ON dbotto TO 'maintainer'@'localhost';
+FLUSH PRIVILEGES;
 
 CREATE USER IF NOT EXISTS 'observer'@'localhost'
     IDENTIFIED BY 'observer';
-GRANT SELECT ON dbotto.* TO 'observer'@'localhost';
+GRANT SELECT ON dbotto.liefangebot TO 'observer'@'localhost';
+GRANT SELECT ON dbotto.liefbestellung TO 'observer'@'localhost';
+GRANT SELECT ON dbotto.lieferant TO 'observer'@'localhost';
+FLUSH PRIVILEGES;
 
 CREATE USER IF NOT EXISTS 'worker'@'localhost'
     IDENTIFIED BY 'worker';
 GRANT INSERT ON dbotto.kdauftrag TO 'worker'@'localhost';
 GRANT INSERT ON dbotto.kdauftragsposition TO 'worker'@'localhost';
+FLUSH PRIVILEGES;
 
 -- Create 3 Roles
 CREATE ROLE 'admin','sekretariat','nutzer';
