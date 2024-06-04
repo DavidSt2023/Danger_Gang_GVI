@@ -19,3 +19,6 @@ PCloud Link with important stuff: https://e.pcloud.link/publink/show?code=kZEJ1m
 
 
 https://account.jetbrains.com/licenses
+
+
+Es ist der boy der G, sick so wie leukämie.
