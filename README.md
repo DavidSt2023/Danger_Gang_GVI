@@ -8,7 +8,7 @@ Test Termine:
 **SUD Subqueries** 15.04.2024
 
 
-Alle Aufgaben für Jahr zwie in SUD:
+Alle Aufgaben für Jahr zwei in SUD:
 https://github.com/shyrack/aufgaben-sud
 
 
