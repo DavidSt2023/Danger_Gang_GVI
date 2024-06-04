@@ -3,7 +3,7 @@
 | Kürzel   | begriff                      | Bedeutung                                    |
 | -------- | ---------------------------- | -------------------------------------------- |
 | **DBMS** | Datenbank Management system  |                                              |
-| **DML**  | Data Manipulation Language   | Daten einfügen oder Löschen                  |
+| **DML**  | Data Manipulation Language   | Daten einfügen oder Löschen                   |
 | **DQL**  | Data Query Language          | Abfragen                                     |
 | **DDL**  | Data Definition Language     | Datenbanken anlegen                          |
 | **DCL**  | Data Control Language        | Verwaltung von Zugriffsrechten auf Tabellen  |
@@ -75,7 +75,7 @@ DROP INDEX MAID_INDEX ON Mitarbeiter;
 
 #### INDEX 
  Ein Index ermöglichet eine schnellere suche 
-![[Pasted image 20240602154125.png]]
+![[Screenshot 2024-06-02 165131.png]]
 #### DML 
 
 ``` MYSQL 
