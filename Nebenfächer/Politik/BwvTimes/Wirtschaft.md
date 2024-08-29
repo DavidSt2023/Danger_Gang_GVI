@@ -1,4 +1,4 @@
-# Wirtschaftwirtschaft
+# Wirtschaftspolitik
 
 Das europäische BIP steigt unerwarteter Weise im letzten Quartal stark an. 
 Die EU-Zone stieg um 0,3 Prozent im Vergleich zum vorherigen Quartal.
@@ -6,5 +6,28 @@ Deutschland hinkt weiterhin im Vergleich zu anderen Staaten hinterher.
 Die deutsche Wirtschaft ist weiterhin geschwächt, Investitionen in Bauten und Maschinen stocken.
 Gründe hierfür sind der starke Gegenwind aus China und die verunsichernde deutsche Wirtschaftspolitik.
 
-https://www.tagesschau.de/wirtschaft/konjunktur/bip-deutschland-wirtschaftswachstum-100.html
+# Aussenpolitik
+
+Auf Hawaii haben schwere Waldbrände die Insel Maui verwüstet,
+wobei viele Menschen ihre Häuser verloren haben und weite Teile der Natur zerstört wurden.
+Internationale Hilfe, unter anderem aus Japan und Australien, wurde entsandt, um bei den Löscharbeiten zu unterstützen.
+Wissenschaftler warnen, dass solche Katastrophen durch den Klimawandel häufiger auftreten könnten.
+Trotz der Zerstörung zeigen die Bewohner von Maui großen Zusammenhalt und arbeiten gemeinsam am Wiederaufbau ihrer Gemeinden.
+
+1. Was war die Ursache für die schnellen Ausbreitung der Waldbrände auf Hawaii?
+
+Die schnellen Ausbreitung der Brände wurde durch anhaltende Trockenheit und starke Winde begünstigt, was die Löscharbeiten erschwerte und die Zerstörung verstärkte.
+
+2. Welche Länder haben auf den Hilferuf Hawaiis reagiert?
+
+Japan und Australien waren unter den ersten Ländern, die Feuerwehrleute und Ausrüstung entsandten, um bei den Löscharbeiten und der Bewältigung der Katastrophe zu helfen.
+
+3. Welche Auswirkungen hatten die Brände auf die Umwelt von Hawaii?
+
+Die Brände haben nicht nur viele Häuser und Infrastruktur zerstört, sondern auch wertvolle Naturräume vernichtet, die für die Biodiversität der Insel wichtig sind.
+
+4. Welche langfristigen Konsequenzen könnten solche Naturkatastrophen haben?
+
+Wissenschaftler warnen, dass extreme Wetterereignisse und Naturkatastrophen aufgrund des Klimawandels häufiger und intensiver werden könnten, was größere Risiken für lokale Gemeinschaften und die Umwelt mit sich bringt.
+
 
