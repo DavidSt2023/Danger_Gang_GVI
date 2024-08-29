@@ -30,4 +30,8 @@ Die Brände haben nicht nur viele Häuser und Infrastruktur zerstört, sondern a
 
 Wissenschaftler warnen, dass extreme Wetterereignisse und Naturkatastrophen aufgrund des Klimawandels häufiger und intensiver werden könnten, was größere Risiken für lokale Gemeinschaften und die Umwelt mit sich bringt.
 
+# Innenpolitik
 
+Schleuserkriminalität in Deutschland nimmt drastisch zu: Gefährliche "Behältnisschleusungen" auf dem Vormarsch
+Im Jahr 2023 stieg die Zahl der Schleusungsdelikte in Deutschland um 60 Prozent im Vergleich zum Vorjahr, wie der aktuelle Lagebericht des Bundeskriminalamts (BKA) zeigt. Besonders alarmierend ist die Zunahme der sogenannten "Behältnisschleusungen". Bei dieser besonders riskanten Methode werden Migranten unter extrem gefährlichen Bedingungen in Kleintransportern über die Grenze gebracht. Die Menschen werden oft dicht gedrängt im Laderaum transportiert, was sie einem hohen Risiko für Sauerstoffmangel, Dehydrierung und Unterkühlung aussetzt. Innerhalb eines Jahres hat sich die durchschnittliche Zahl der Personen pro Transport von zehn auf 19 fast verdoppelt.
+Schleuser gehen dabei immer brutaler vor und nutzen vermehrt Onlinedienste wie TikTok, Instagram und Telegram, um ihre illegalen Geschäfte zu organisieren. Deutschland bleibt das Hauptziel in der EU, was die Bundesregierung dazu veranlassen könnte, die verstärkten Grenzkontrollen zu Polen, Tschechien und der Schweiz weiterzuführen. Diese Kontrollen haben bereits zu einem Rückgang der geschleusten Personen geführt, doch die Zahl der Asylanträge stieg dennoch an. Experten warnen, dass Schleuser neue Wege finden, um Migranten ins Land zu bringen, und dass Grenzkontrollen allein das Problem nicht lösen können.
