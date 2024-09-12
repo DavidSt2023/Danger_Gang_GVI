@@ -1,0 +1,96 @@
+Aufgabe 2.2.2 
+a)
+100*60*12 = 72000 Scans
+b)
+Scanfläche 50,8cm * 30,48 cm 
+Auflösung 400dpi * 400dpi
+Cm in Zoll 
+20Zoll und 12 Zoll
+
+Nächster Schritt:
+Pixelanzahl errechnen
+Breite: 400 dpi * 20 Zoll = 8000 Pixel
+Länge: 400 dpi * 12 Zoll = 4800Pixel
+Gesamt: Länge * Breite => 4800 Pixel * 8000 Pixel = 38400000 Pixel
+
+Berechnen der Datenmenge:
+Farbtiefe 2 Byte, da 16/8=2
+
+Datenmenge = 38.400.000 Pixel * 2 Byte/Pixel = 76.800.000 Byte
+Datenmenge in MiB = 76.800.000 Byte / 1.048.576Byte/MiB = 73,24MiB
+
+73,24MiB * 72000 = 5.272.800 MiB 
+= 5,027 TiB => 6TiB
+
+c)
+RAID 5
+Gesamtspeicher 20TB
+9x2TB = 18TB 
+18TB-2TB = 16TB
+Nettospeicher 16TB
+
+
+cb)
+(2*3TB) + (7*2TB) = 20TB
+
+cc)
+JBOD kann verschieden große Festplatten beinhalten, RAID 0 wiederum nur gleich große.
+
+JBOD verliert nur den Speicherinhalt der einen Festplatte, RAID 0 verliert alle Daten wenn eine Festplatte ausfällt.
+
+d)
+höhere Leistung, besser skalierbar, zentralisierte Verwaltung des Speichers
+e)
+Vorteile QR-Code
+	Einfach und schnell zu scannen und nutzen
+	Erstellung kostenlos
+Nachteile QR-Code
+	Empfindlich gegenüber Verschmutzung/Beschädigung
+	Sichtkontakt erforderlich
+
+
+Vorteile RFID-Chip
+	Höhere Fälschung Sicherheit, durch eindeutige ID
+	Kein Sichtkontakt notwendig
+Nachteile RFID-Chip
+	Teuer
+	Daten können leichter manipuliert werden.
+
+
+Aufgabe 2.2.3
+
+a)	IPv6 Vorteile gegenüber IPv4
+	Adressbereich größer bei IPv6
+	Einfachere Netzwerkkonfiguration
+
+b)
+2001:0da8:5f2d:0028:0000:0000:0000:0000/64
+
+Standardpräfix von 48-Bit:
+2001:0da8:5f2d
+
+Teilnetzid: 0028
+
+c)	65553 mögliche Subnetze
+
+
+d)	Sensor:
+IP: ::21/64
+Gateway: 2001:da8:5f2d:29::1/64
+
+Steuerung
+IP: ::22/64
+Gateway: 2001:da8:5f2d:29::1/64
+
+Industrie PC:
+Gateway: 2001:da8:5f2d:29::1/64
+
+Switch:
+Gateway: 2001:da8:5f2d:29::1/64
+
+e)
+ping 2001:da8:5f2d:29::1
+
+f)
+Ist eine Link-Local Adresse die automatisch von dem PC generiert wird
+
