@@ -8,14 +8,18 @@ import java.util.Random;
 public class insertionsort {
 
   public static void insertionSort(int[] arr) {
-    int j;
+    int temp;
+
     for (int i = 1; i < arr.length; i++) {
-      j = i;
-      while (j > 0 && arr[j - 1] > arr[j]) {
-        int temp = arr[j];
-        arr[j] = arr[j - 1];
-        arr[j - 1] = temp;
-        j--;
+      if (arr[i] < arr[i - 1]) {
+        int j = i;
+        temp = arr[i];
+
+        while(j > 0 && temp < arr[j - 1]) {
+          arr[j] = arr[j - 1];
+          j--;
+        }
+        arr[j] = temp;
       }
     }
   }
