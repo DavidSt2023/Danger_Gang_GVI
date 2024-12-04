@@ -7,7 +7,7 @@
 - **Nachteile**:
     - Keine Datensicherheit – fällt eine Festplatte aus, sind alle Daten verloren.
 - **Einsatzgebiet**: Anwendungen, bei denen Geschwindigkeit wichtiger als Datensicherheit ist, z. B. Videobearbeitung.
-![[Capture.png]]
+- ![](./assets/Capture.PNG)
 ---
 
 ### **RAID 1 (Mirroring)**
@@ -19,7 +19,7 @@
 - **Nachteile**:
     - Nur die Hälfte des Speicherplatzes ist nutzbar, da alles doppelt gespeichert wird.
 - **Einsatzgebiet**: Systeme, bei denen Datensicherheit oberste Priorität hat, z. B. Server.
-![[Capture2.png]]
+- ![](./assets/Capture2.PNG)
 ---
 
 ### **RAID 5 (Striping mit Parität)**
@@ -32,7 +32,7 @@
     - Schreibgeschwindigkeit langsamer, da Parität berechnet werden muss.
     - Fällt eine Festplatte aus, verringert sich die Leistung während der Wiederherstellung.
 - **Einsatzgebiet**: Datenbanken, Datei-Server.
-![[Raid5.png]]
+- ![](./assets/Raid5.PNG)
 ---
 
 ### **RAID 6 (Striping mit doppelter Parität)**
@@ -45,7 +45,8 @@
     - Langsamere Schreibgeschwindigkeit durch aufwändigere Paritätsberechnung.
     - Weniger effektiver Speicherplatz.
 - **Einsatzgebiet**: Große Speichersysteme mit hoher Redundanzanforderung.
-![[RAID 6.png]]
+
+- ![](./assets/RAID6.PNG)
 ---
 
 ### **RAID 10 (RAID 1 + 0, Mirroring und Striping)**
@@ -58,7 +59,7 @@
     - Effizienz beim Speicherplatz entspricht RAID 1.
     - Höhere Kosten durch doppelte Anzahl an Festplatten.
 - **Einsatzgebiet**: Kritische Systeme, die hohe Geschwindigkeit und Redundanz benötigen.
-![[RAID10 1.png]]
+- ![](./assets/RAID10.PNG)
 ---
 
 ### **RAID 50 (RAID 5 + 0)**
@@ -71,7 +72,7 @@
     - Höhere Komplexität.
     - Zwei gleichzeitige Festplattenausfälle in derselben RAID-5-Gruppe können Datenverlust verursachen.
 - **Einsatzgebiet**: Große Datenbanken oder Workloads mit hoher Kapazitäts- und Leistungsanforderung.
-![[RAID50.png]]
+- ![](./assets/RAID50.PNG)
 ---
 
 ### **RAID 60 (RAID 6 + 0)**
@@ -84,7 +85,7 @@
     - Weniger effektiver Speicherplatz als RAID 50.
     - Noch höhere Komplexität und Kosten.
 - **Einsatzgebiet**: Große, kritische Speichersysteme.
-![[RAID60.png]]
+- ![](./assets/RAID60.PNG)
 ---
 
 ### **RAID 5 + Spare**
@@ -96,4 +97,4 @@
 - **Nachteile**:
     - Speicherplatz für die Hot-Spare-Festplatte ist ungenutzt, bis ein Ausfall auftritt.
 - **Einsatzgebiet**: Systeme, bei denen eine schnelle Wiederherstellung wichtig ist.
-![[RAID5Spare.png]]
+- ![](./assets/RAID5Spare.PNG)
