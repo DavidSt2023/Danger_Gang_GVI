@@ -2,6 +2,8 @@ package verwaltungen;
 
 import fahrzeuge.Kfz;
 import java.util.ArrayList;
+import java.util.Comparator;
+
 import lombok.Getter;
 import utils.ToStringUtil;
 
@@ -39,6 +41,18 @@ public class Mitarbeiterverwaltung {
     for (Abteilung a : abteilungen) {
       System.out.println(a.toString());
     }
+  }
+  public void SortAbteilungenByName(char sort) {
+    if(sort == 'D')
+      abteilungen.sort(Comparator.comparing(Abteilung::getName).reversed());
+    else
+      abteilungen.sort(Comparator.comparing(Abteilung::getName));
+  }
+  public void SortAbteilungenByEinkommen(char sort) {
+    if(sort == 'D')
+      abteilungen.sort(Comparator.comparing(Abteilung::getEinkommen).reversed());
+    else
+      abteilungen.sort(Comparator.comparing(Abteilung::getEinkommen));
   }
 
   public String toString() {
