@@ -5,12 +5,8 @@ import de.figuren.figuren2D.Figur2D;
 import de.figuren.figuren2D.Kreis;
 import de.figuren.figuren2D.N_Eck;
 import de.figuren.figuren2D.Rechteck;
-import de.figuren.figuren3D.Figur3D;
-import de.figuren.figuren3D.Kugel;
-import de.figuren.figuren3D.Prisma;
-import de.figuren.figuren3D.RegelmaessigePyramide;
-import de.figuren.figuren3D.Tetraeder;
-import de.figuren.figuren3D.Zylinder;
+import de.figuren.figuren3D.*;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -77,5 +73,10 @@ public class Main {
     formen3D.add(vier);
     formen3D.add(sieben);
     formen3D.add(k);
+    //NewFactory
+    ArrayList<Figur3D> Figuren3D = new ArrayList<>();
+    Figuren3D.add(Factory3D.createFigur3D("Kugel", new ArrayList<Object>() {{add(2.5);}}));
+    Figuren3D.add(Factory3D.createFigur3D("Prisma", new ArrayList<Object>() {{add(new N_Eck(5, 3)); add(6);}}));
+    Figuren3D.add(Factory3D.createFigur3D("RegelmaessigePyramide", new ArrayList<Object>() {{add(new N_Eck(5, 4)); add(6);}}));
   }
 }
