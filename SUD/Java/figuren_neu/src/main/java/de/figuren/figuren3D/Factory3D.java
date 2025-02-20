@@ -7,11 +7,11 @@ import java.util.ArrayList;
 
 public class Factory3D {
 
-    public static Figur3D createFigur3D(String Figur, ArrayList<Object> args) {
+    public static Figur3D createFigur3D(String figur, ArrayList<Object> args) {
         try {
-            switch (Figur) {
+            switch (figur) {
                 case "Kugel":
-                    return new Kugel((Double) args.get(1));
+                    return new Kugel((Double) args.get(0));
                 case "Prisma":
                     return new Prisma((Figur2D) args.get(0), (Double) args.get(1));
                 case "RegelmaessigePyramide":

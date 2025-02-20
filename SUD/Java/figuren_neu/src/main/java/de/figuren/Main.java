@@ -6,6 +6,7 @@ import de.figuren.figuren2D.Kreis;
 import de.figuren.figuren2D.N_Eck;
 import de.figuren.figuren2D.Rechteck;
 import de.figuren.figuren3D.*;
+import utils.saveClassToCSV;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -75,8 +76,10 @@ public class Main {
     formen3D.add(k);
     //NewFactory
     ArrayList<Figur3D> Figuren3D = new ArrayList<>();
-    Figuren3D.add(Factory3D.createFigur3D("Kugel", new ArrayList<Object>() {{add(2.5);}}));
-    Figuren3D.add(Factory3D.createFigur3D("Prisma", new ArrayList<Object>() {{add(new N_Eck(5, 3)); add(6);}}));
-    Figuren3D.add(Factory3D.createFigur3D("RegelmaessigePyramide", new ArrayList<Object>() {{add(new N_Eck(5, 4)); add(6);}}));
+
+    Figuren3D.add(Factory3D.createFigur3D("Prisma", new ArrayList<Object>() {{add(new N_Eck(5, 3)); add(6.0);}}));
+
+
+    saveClassToCSV.writeAll(Figuren3D, java.nio.file.Paths.get("Figuren3D.csv"));
   }
 }

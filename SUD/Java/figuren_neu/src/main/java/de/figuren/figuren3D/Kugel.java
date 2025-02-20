@@ -31,4 +31,13 @@ public class Kugel extends Figur3D<Double> {
   public String name() {
     return "Kugel mit Radius " + this.getRadius() + " Radius.";
   }
+
+  @Override
+  public String toString() {
+    return "Kugel{" +
+            "radius=" + radius +
+            ", volumen=" + volumen() +
+            ", oberflaeche=" + oberflaeche() +
+            '}';
+  }
 }
