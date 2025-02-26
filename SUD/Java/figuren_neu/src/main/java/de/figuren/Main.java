@@ -65,7 +65,7 @@ public class Main {
 
 //Figur3D
     for (Figur2D fig : formen2D) {
-      geradePrismen.add(new Prisma(fig, rnd.nextInt(10)));
+      geradePrismen.add(new Prisma(fig, rnd.nextInt(1, 10)));
     }
     formen3D.addAll(geradePrismen);
 
