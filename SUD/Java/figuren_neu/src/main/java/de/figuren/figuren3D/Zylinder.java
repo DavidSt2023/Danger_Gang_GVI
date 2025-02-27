@@ -27,4 +27,12 @@ public class Zylinder extends Pyramide<Kreis> {
   public String name() {
     return "Kreiskegel mit Hoehe " + this.getHoehe() + " und " + ((Kreis) this.getGrund()).getRadius() + " Radius.";
   }
+
+  @Override
+    public String toString() {
+        return "Zylinder{" +
+                "grund=" + getGrund() +
+                ", hoehe=" + getHoehe() +
+                '}';
+    }
 }

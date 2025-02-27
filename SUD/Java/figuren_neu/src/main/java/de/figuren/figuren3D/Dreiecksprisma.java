@@ -26,4 +26,12 @@ public class Dreiecksprisma extends Figur3D<Dreieck> {
   public double volumen() {
     return grundflaeche.flaeche() * hoehe;
   }
+
+  @Override
+    public String toString() {
+        return "Dreiecksprisma{" +
+                "grundflaeche=" + grundflaeche +
+                ", hoehe=" + hoehe +
+                '}';
+    }
 }

@@ -24,4 +24,12 @@ public class Tetraeder extends RegelmaessigePyramide {
   public String name() {
     return "Tetraeder mit Kante " + this.getGrundKantenLaenge() + ".";
   }
+
+  @Override
+    public String toString() {
+        return "Tetraeder{" +
+                "grund=" + getGrund() +
+                ", hoehe=" + getHoehe() +
+                '}';
+    }
 }

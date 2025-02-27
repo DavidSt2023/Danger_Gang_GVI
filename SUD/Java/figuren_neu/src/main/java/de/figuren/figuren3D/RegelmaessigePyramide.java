@@ -43,4 +43,11 @@ public class RegelmaessigePyramide extends Pyramide<N_Eck> {
   public String name() {
     return "Regelmaessige gerade Pyramide mit Hoehe " + this.getHoehe() + " und " + this.getAnzahlSeiten() + " Seiten.";
   }
+  @Override
+    public String toString() {
+        return "RegelmaessigePyramide{" +
+                "grund=" + getGrund() +
+                ", hoehe=" + getHoehe() +
+                '}';
+    }
 }

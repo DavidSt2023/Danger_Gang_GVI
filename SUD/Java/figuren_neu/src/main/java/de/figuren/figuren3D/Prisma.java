@@ -20,5 +20,12 @@ public class Prisma<T extends Figur2D> extends Quader<T> {
   public String name() {
     return "Gerades Prisma mit Hoehe " + this.getHoehe() + " und als Grundflaeche " + this.getGrund() + ".";
   }
+  @Override
+    public String toString() {
+        return "Prisma{" +
+                "grund=" + getGrund() +
+                ", hoehe=" + getHoehe() +
+                '}';
+    }
 
 }
