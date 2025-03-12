@@ -1,6 +1,7 @@
 package de.figuren.figuren2D;
 
 import lombok.Getter;
+import org.json.JSONObject;
 
 @Getter
 public class Dreieck extends Figur2D {
@@ -81,9 +82,10 @@ public class Dreieck extends Figur2D {
     return "Dreieck mit den Seiten A: " + this.seiteA + " B: " + this.seiteB + " C: " + this.seiteC;
   }
 
+  @Override
   public String toString() {
-    return "Seite A: " + seiteA + ", Seite B: " + seiteB + ", Seite C: " + seiteC + ", Flaeche: " + flaeche()
-        + ", Umfang: " + umfang();
+    return "\"Dreick\":{\"Seite A\": " + seiteA + ", \"Seite B\": " + seiteB + ", \"Seite C\": " + seiteC + ", \"Flaeche\": " + flaeche()
+        + ", \"Umfang\": " + umfang();
   }
 
   @Override
@@ -93,5 +95,12 @@ public class Dreieck extends Figur2D {
       return this.seiteA == o.seiteA && this.seiteB == o.seiteB && this.seiteC == o.seiteC;
     }
     return false;
+  }
+  public static Dreieck fromString(String s) {
+    JSONObject obj = new JSONObject(s);
+    double seiteA = obj.getDouble("Seite A");
+    double seiteB = obj.getDouble("Seite B");
+    double seiteC = obj.getDouble("Seite C");
+    return new Dreieck(seiteA, seiteB, seiteC);
   }
 }

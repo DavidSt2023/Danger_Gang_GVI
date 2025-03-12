@@ -6,6 +6,7 @@ import de.figuren.figuren2D.Kreis;
 import de.figuren.figuren2D.N_Eck;
 import de.figuren.figuren2D.Rechteck;
 import de.figuren.figuren3D.*;
+import utils.readClassFromCSV;
 import utils.saveClassToCSV;
 
 import java.util.ArrayList;
@@ -77,9 +78,22 @@ public class Main {
     //NewFactory
     ArrayList<Figur3D> Figuren3D = new ArrayList<>();
 
-    Figuren3D.add(Factory3D.createFigur3D("Prisma", new ArrayList<Object>() {{add(new N_Eck(5, 3)); add(6.0);}}));
-
+    Figuren3D.add(Factory3D.createFigur3D("Prisma", new ArrayList<Object>() {{
+      add(new N_Eck(5, 3));
+      add(6.0);
+    }}));
+    Figuren3D.add(Factory3D.createFigur3D("Kugel", new ArrayList<Object>() {{
+      add(4.0);
+    }}));
+    Figuren3D.add(Factory3D.createFigur3D("Zylinder", new ArrayList<Object>() {{
+      add(3.0);
+      add(7.0);
+    }}));
+    Figuren3D.add(Factory3D.createFigur3D("Tetraeder", new ArrayList<Object>() {{
+      add(3.0);
+    }}));
 
     saveClassToCSV.writeAll(Figuren3D, java.nio.file.Paths.get("Figuren3D.csv"));
+    readClassFromCSV.readAll(java.nio.file.Paths.get("Figuren3D.csv"));
   }
 }

@@ -2,6 +2,7 @@ package de.figuren.figuren2D;
 
 import de.figuren.figuren.INamed;
 import lombok.Getter;
+import org.json.JSONObject;
 
 @Getter
 public class Rechteck extends Figur2D implements INamed {
@@ -46,4 +47,16 @@ public class Rechteck extends Figur2D implements INamed {
   public double umfang() {
     return 2 * (breite + hoehe);
   }
+
+  @Override
+    public String toString() {
+        return "\"Rechteck\":{\"laenge\":" + hoehe + ", \"breite\":" + breite + "}";
+    }
+  public static Rechteck fromString(String s) {
+    JSONObject obj = new JSONObject(s);
+    double laenge = obj.getDouble("laenge");
+    double breite = obj.getDouble("breite");
+    return new Rechteck(laenge, breite);
+  }
+
 }

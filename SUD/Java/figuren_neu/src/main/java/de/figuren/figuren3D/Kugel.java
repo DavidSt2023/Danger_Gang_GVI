@@ -1,6 +1,9 @@
 package de.figuren.figuren3D;
 
 import lombok.Getter;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
 
 @Getter
 public class Kugel extends Figur3D<Double> {
@@ -34,10 +37,17 @@ public class Kugel extends Figur3D<Double> {
 
   @Override
   public String toString() {
-    return "Kugel{" +
-            "radius=" + radius +
-            ", volumen=" + volumen() +
-            ", oberflaeche=" + oberflaeche() +
-            '}';
+    return "{\"Kugel\":{" +
+            "\"radius\" :" + radius +
+            ", \"volumen\":" + volumen() +
+            ", \"oberflaeche\":" + oberflaeche() +
+            "}}";
+  }
+  public static Kugel fromString(String s) {
+    JSONObject obj = new JSONObject(s);
+    double radius = obj.getDouble("radius");
+    return (Kugel) Factory3D.createFigur3D("Kugel", new ArrayList<Object>() {{
+      add(radius);
+    }});
   }
 }

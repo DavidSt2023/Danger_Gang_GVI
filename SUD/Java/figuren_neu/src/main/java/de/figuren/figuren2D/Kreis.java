@@ -34,6 +34,13 @@ public class Kreis extends Figur2D implements INamed {
   }
 
   @Override
+  public String toString() {
+    return "\"Kreis\":{" +
+            "\"radius\":" + radius +
+            "}";
+  }
+
+  @Override
   public double umfang() {
     return Math.PI * 2 * radius;
   }

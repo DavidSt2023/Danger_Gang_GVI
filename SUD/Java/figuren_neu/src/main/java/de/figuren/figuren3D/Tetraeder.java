@@ -1,6 +1,9 @@
 package de.figuren.figuren3D;
 
 import de.figuren.figuren2D.N_Eck;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
 
 public class Tetraeder extends RegelmaessigePyramide {
 
@@ -27,9 +30,16 @@ public class Tetraeder extends RegelmaessigePyramide {
 
   @Override
     public String toString() {
-        return "Tetraeder{" +
-                "grund=" + getGrund() +
-                ", hoehe=" + getHoehe() +
-                '}';
+        return "{\"Tetraeder\":{" +
+                "\"grund\" :" + getGrund() +
+                ", \"hoehe\":" + getHoehe() +
+                ",\"kante\":"+ getKante()+
+                "}}";
     }
+
+  public static Tetraeder fromString(String s) {
+    JSONObject obj = new JSONObject(s);
+    double kantenlaenge = obj.getDouble("kante");
+    return (Tetraeder) Factory3D.createFigur3D("Tetraeder", new ArrayList<Object>() {{add(kantenlaenge);}});
+  }
 }

@@ -1,6 +1,7 @@
 package de.figuren.figuren3D;
 
 import de.figuren.figuren2D.Dreieck;
+import org.json.JSONObject;
 
 public class Dreiecksprisma extends Figur3D<Dreieck> {
 
@@ -29,9 +30,15 @@ public class Dreiecksprisma extends Figur3D<Dreieck> {
 
   @Override
     public String toString() {
-        return "Dreiecksprisma{" +
-                "grundflaeche=" + grundflaeche +
-                ", hoehe=" + hoehe +
+        return "{\"Dreiecksprisma\":{" +
+                "\"grundflaeche\":" + grundflaeche +
+                ", \"hoehe\" :" + hoehe +
                 '}';
     }
+  public static Dreiecksprisma fromString(String s) {
+    JSONObject obj = new JSONObject(s);
+    Dreieck grund = Dreieck.fromString(obj.getJSONObject("DREICK").toString());
+    double hoehe = obj.getDouble("hoehe");
+    return new Dreiecksprisma(grund, hoehe);
+  }
 }

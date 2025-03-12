@@ -3,6 +3,7 @@ package de.figuren.figuren3D;
 import de.figuren.figuren2D.Dreieck;
 import de.figuren.figuren2D.Figur2D;
 import de.figuren.figuren2D.N_Eck;
+import org.json.JSONObject;
 
 public class RegelmaessigePyramide extends Pyramide<N_Eck> {
 
@@ -45,9 +46,16 @@ public class RegelmaessigePyramide extends Pyramide<N_Eck> {
   }
   @Override
     public String toString() {
-        return "RegelmaessigePyramide{" +
-                "grund=" + getGrund() +
-                ", hoehe=" + getHoehe() +
+        return "{\"RegelmaessigePyramide\":{" +
+                "\"grund\":" + getGrund() +
+                ", \"hoehe\":" + getHoehe() +
                 '}';
     }
+
+  public static RegelmaessigePyramide fromString(String s) {
+    JSONObject obj = new JSONObject(s);
+    N_Eck grund = N_Eck.fromString(obj.getJSONObject("N_Eck"));
+    double hoehe = obj.getDouble("hoehe");
+    return new RegelmaessigePyramide(grund, hoehe);
+  }
 }

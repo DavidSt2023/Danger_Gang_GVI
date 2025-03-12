@@ -2,6 +2,7 @@ package de.figuren.figuren2D;
 
 import de.figuren.figuren.INamed;
 import lombok.Getter;
+import org.json.JSONObject;
 
 @Getter
 public class N_Eck extends Figur2D implements INamed {
@@ -47,5 +48,17 @@ public class N_Eck extends Figur2D implements INamed {
     double seite = this.aussenKreisRadius();
     Dreieck d = new Dreieck(seite, seite, seitenLaenge);
     return d.flaeche() * n;
+  }
+  @Override
+  public String toString() {
+    return "{\"N_Eck\":{" +
+            "\"seitenLaenge\":" + seitenLaenge +
+            ", \"anzahlSeiten\":" + n +
+            "}}";
+  }
+  public static N_Eck fromString(JSONObject ob) {
+    double seitenlaenge = ob.getDouble("seitenLaenge");
+    int anzahlSeiten = ob.getInt("anzahlSeiten");
+    return new N_Eck(seitenlaenge, anzahlSeiten);
   }
 }

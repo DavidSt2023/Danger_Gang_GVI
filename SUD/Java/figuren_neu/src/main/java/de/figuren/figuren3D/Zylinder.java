@@ -1,6 +1,7 @@
 package de.figuren.figuren3D;
 
 import de.figuren.figuren2D.Kreis;
+import org.json.JSONObject;
 
 public class Zylinder extends Pyramide<Kreis> {
 
@@ -30,9 +31,17 @@ public class Zylinder extends Pyramide<Kreis> {
 
   @Override
     public String toString() {
-        return "Zylinder{" +
-                "grund=" + getGrund() +
-                ", hoehe=" + getHoehe() +
-                '}';
+        return "{\"Zylinder\":{" +
+                "\"grund\":{" + getGrund() +
+                "}, \"hoehe\":" + getHoehe() +
+                "}}";
     }
+
+  public static Zylinder fromString(String s) {
+    JSONObject obj = new JSONObject(s);
+    JSONObject grundobj = obj.getJSONObject("grund").getJSONObject("Kreis");
+    double radius = grundobj.getDouble("radius");
+    double hoehe = obj.getDouble("hoehe");
+    return new Zylinder(radius, hoehe);
+  }
 }
