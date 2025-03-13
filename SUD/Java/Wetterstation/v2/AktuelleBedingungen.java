@@ -1,22 +1,16 @@
 package v2;
 
-import java.util.Observable;
-import java.util.Observer;
-
-public class AktuelleBedingungen implements Observer {
+public class AktuelleBedingungen implements Observer<WetterDaten.WetterDatenPayload> {
     private double temperatur;
     private double feuchtigkeit;
     private double luftdruck;
 
     @Override
-    public void update(Observable o, Object arg) {
-        if (arg instanceof WetterDaten.WetterDatenPayload) {
-            WetterDaten.WetterDatenPayload payload = (WetterDaten.WetterDatenPayload) arg;
-            this.temperatur = payload.getTemperatur();
-            this.feuchtigkeit = payload.getFeuchtigkeit();
-            this.luftdruck = payload.getLuftdruck();
-            anzeigen();
-        }
+    public void update(Subject<WetterDaten.WetterDatenPayload> subject, WetterDaten.WetterDatenPayload data) {
+        this.temperatur = data.getTemperatur();
+        this.feuchtigkeit = data.getFeuchtigkeit();
+        this.luftdruck = data.getLuftdruck();
+        anzeigen();
     }
 
     public void anzeigen() {

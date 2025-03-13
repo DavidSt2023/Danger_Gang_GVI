@@ -1,8 +1,6 @@
 package v2;
 
-import java.util.Observable;
-
-public class WetterDaten extends Observable {
+public class WetterDaten extends Subject<WetterDaten.WetterDatenPayload> {
     private double temperatur;
     private double feuchtigkeit;
     private double luftdruck;
@@ -16,7 +14,6 @@ public class WetterDaten extends Observable {
     public void setTemperatur(double temperatur) {
         if (temperatur >= -90 && temperatur <= 60) {
             this.temperatur = temperatur;
-            setChanged();
             notifyObservers(new WetterDatenPayload(temperatur, feuchtigkeit, luftdruck));
         }
     }
@@ -24,7 +21,6 @@ public class WetterDaten extends Observable {
     public void setFeuchtigkeit(double feuchtigkeit) {
         if (feuchtigkeit >= 0 && feuchtigkeit <= 100) {
             this.feuchtigkeit = feuchtigkeit;
-            setChanged();
             notifyObservers(new WetterDatenPayload(temperatur, feuchtigkeit, luftdruck));
         }
     }
@@ -32,7 +28,6 @@ public class WetterDaten extends Observable {
     public void setLuftdruck(double luftdruck) {
         if (luftdruck >= 100 && luftdruck <= 1050) {
             this.luftdruck = luftdruck;
-            setChanged();
             notifyObservers(new WetterDatenPayload(temperatur, feuchtigkeit, luftdruck));
         }
     }

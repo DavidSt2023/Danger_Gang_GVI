@@ -42,7 +42,7 @@ public class Main_WetterstationTestlaufPUSH {
 			}
 					
 			//Observer wird entfernt
-			wetterDaten.deleteObserver(aktuell);
+			wetterDaten.removeObserver(aktuell);
 			Thread.sleep(500);
 			wetterDaten.setLuftdruck(900);
 			wetterDaten.setTemperatur(36);
