@@ -1,9 +1,11 @@
 package GUI;
 
 import javafx.application.Application;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import java.util.Random;
 import WeatherStation.WetterDaten;
@@ -19,10 +21,14 @@ public class WeatherApp extends Application {
 
     @Override
     public void start(Stage primaryStage) {
+        Label titleLabel = new Label("Wetterstation");
+        titleLabel.setStyle("-fx-font-size: 24px; -fx-text-fill: #333; -fx-padding: 10px;");
+
         weatherLabel = new Label();
         updateWeatherData();
 
-        StackPane root = new StackPane(weatherLabel);
+        VBox root = new VBox(10, titleLabel, weatherLabel);
+        root.setAlignment(Pos.CENTER);
         Scene scene = new Scene(root, 400, 300);
 
         primaryStage.setTitle("Wetterstation");
