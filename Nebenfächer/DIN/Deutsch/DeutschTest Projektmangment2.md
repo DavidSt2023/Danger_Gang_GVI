@@ -166,3 +166,119 @@ Ein Vertrag zwischen Auftraggeber und Auftragnehmer über:
 
 📌 **Tipp:** Eine gute Mischung hilft – je nach Situation.
 
+---
+
+### 📚 **Lernkarten – Projektmanagement**
+
+#### 🏁 **Kick-off**
+
+**Frage:** Was ist das Ziel eines Kick-off-Meetings?
+
+**Antwort:** Alle Beteiligten zusammenbringen, Projektziele und Rollen klären, Motivation fördern, Startschuss geben.
+
+---
+
+#### 🧱 **Projektstrukturplan (PSP)**
+
+**Frage:** Wofür wird ein Projektstrukturplan erstellt?
+
+**Antwort:** Zur Gliederung des Projekts in Teilaufgaben und Arbeitspakete – als Grundlage für Planung, Kontrolle und Organisation.
+
+---
+
+#### 📦 **Arbeitspaket**
+
+**Frage:** Was ist ein Arbeitspaket im Projektmanagement?
+
+**Antwort:** Die kleinste planbare Einheit, klar definiert, mit Ziel, Aufwand, Ressourcen, Dauer, Verantwortlichen.
+
+---
+
+#### 📦 **Arbeitspaket – Regeln**
+
+**Frage:** Nenne 3 Regeln für ein gutes Arbeitspaket.
+
+**Antwort:**
+
+1. Klar abgegrenzt und eigenständig
+2. Zeitlich und inhaltlich planbar
+3. Verantwortlicher ist benannt
+
+---
+
+#### 📉 **Top-down-Kostenplanung**
+
+**Frage:** Was bedeutet Top-down bei der Kostenplanung?
+
+**Antwort:** Die Projektleitung schätzt Gesamtkosten und teilt sie auf die Teilbereiche auf.
+
+---
+
+#### 📈 **Bottom-up-Kostenplanung**
+
+**Frage:** Was bedeutet Bottom-up bei der Kostenplanung?
+
+**Antwort:** Einzelne Arbeitspakete werden einzeln kalkuliert, dann aufaddiert zur Gesamtsumme.
+
+---
+
+#### ⏱️ **Eisenhower-Prinzip**
+
+**Frage:** Wie priorisiert das Eisenhower-Prinzip Aufgaben?
+
+**Antwort:** Nach Wichtigkeit und Dringlichkeit – in vier Quadranten (A-D).
+
+---
+
+#### ⏱️ **Eisenhower-Prinzip – Beispiel**
+
+**Frage:** Welche Aufgabe gehört in Kategorie A (wichtig + dringend)?
+
+**Antwort:** Ein Serverausfall – muss sofort erledigt werden.
+
+---
+
+#### 📄 **Lastenheft**
+
+**Frage:** Wer erstellt das Lastenheft und was enthält es?
+
+**Antwort:** Der Auftraggeber. Es enthält **Was** gemacht werden soll (Ziele, Anforderungen, Rahmenbedingungen).
+
+---
+
+#### 📄 **Pflichtenheft**
+
+**Frage:** Wer erstellt das Pflichtenheft und was beschreibt es?
+
+**Antwort:** Der Auftragnehmer. Es beschreibt **Wie** die Anforderungen umgesetzt werden.
+
+---
+
+#### 🤝 **Projektvertrag**
+
+**Frage:** Was regelt ein Projektvertrag?
+
+**Antwort:** Rechte, Pflichten, Ziele, Zeitplan, Kosten, Zuständigkeiten – Grundlage für die Zusammenarbeit.
+
+---
+
+#### 🔥 **Arten der Motivation**
+
+**Frage:** Was ist der Unterschied zwischen intrinsischer und extrinsischer Motivation?
+
+**Antwort:**
+
+* **Intrinsisch:** Motivation von innen (z. B. Interesse)
+* **Extrinsisch:** Motivation durch äußere Anreize (z. B. Geld, Lob)
+
+---
+
+#### 🧑‍⚖️🗳️ **Besprechungsführung**
+
+**Frage:** Unterschied zwischen hierarchischer und demokratischer Besprechungsleitung?
+
+**Antwort:**
+
+* **Hierarchisch:** Leitung entscheidet, schnell, effizient
+* **Demokratisch:** Gruppe entscheidet, kreativ, motivierend
+
