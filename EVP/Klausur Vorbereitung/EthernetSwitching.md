@@ -56,4 +56,16 @@
 
 ### Hinweis:
 - Auch **WLAN** nutzt MAC-Adressen – WLAN-Adapter haben eigene MACs.
-- Betriebssysteme können **zufällige MAC-A**
+- Betriebssysteme können **zufällige MAC-Adressen (Privacy MACs)** verwenden.
+
+---
+
+## ✅ Zusammenfassung
+
+- Ethernet nutzt MAC-Adressen für die lokale Zustellung.
+- Switches lernen MAC-Adressen und leiten gezielt weiter.
+- IP-Adressen regeln die logische Adressierung, MAC-Adressen die physische.
+- ARP verknüpft IP- und MAC-Adressen.
+- MAC-Adressen sind zentral für **LAN und WLAN**.
+
+---
