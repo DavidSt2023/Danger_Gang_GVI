@@ -15,7 +15,7 @@ Das Ganze nennt man „Kapselung“, weil jede Schicht die Daten der vorherigen 
 ### 🔒 **Drei Merkmale des IP-Protokolls**
 
 1. **Verbindungslos:** Es wird keine feste Verbindung zwischen Sender und Empfänger aufgebaut.
-2. **Unzuverlässig:** IP garantiert nicht, dass Pakete ankommen, in der richtigen Reihenfolge ankommen oder nicht doppelt.
+2. **Medienunabhängig:** Der Betrieb ist unabhängig vom Medium (d.h. Kupfer, Glasfaser oder Wireless), das die Daten überträgt.
 3. **Best-Effort:** Es wird versucht, das Paket zuzustellen, aber ohne Garantie.
 
 ---
